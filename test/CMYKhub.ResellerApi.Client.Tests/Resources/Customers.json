@@ -1,0 +1,401 @@
+﻿{
+    "Items": [
+        {
+            "CustomerId": "4306",
+            "Name": " Lorum Ipsum ",
+            "ContactName": "",
+            "Address": {
+                "State": {
+                    "Name": "Unknown",
+                    "Abbreviation": "UNK",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "",
+                "Address2": "",
+                "City": "",
+                "Postcode": "0"
+            },
+            "ContactMethods": {},
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/1511837c-9d1f-406e-a9a3-e18f0c64de0a",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/1511837c-9d1f-406e-a9a3-e18f0c64de0a/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "2695",
+            "Name": "Joes Fish Shop",
+            "ContactName": "",
+            "Address": {
+                "State": {
+                    "Name": "Victoria",
+                    "Abbreviation": "VIC",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "",
+                "Address2": "",
+                "City": "",
+                "Postcode": "6000"
+            },
+            "ContactMethods": {},
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/03d365c0-d478-4bd5-856a-bf9f2956cc30",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/03d365c0-d478-4bd5-856a-bf9f2956cc30/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "729",
+            "Name": "MarkTest100",
+            "ContactName": "",
+            "Address": {
+                "State": {
+                    "Name": "Unknown",
+                    "Abbreviation": "UNK",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "",
+                "Address2": "",
+                "City": "",
+                "Postcode": "0"
+            },
+            "ContactMethods": {},
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/8b06ec1c-e99c-4f32-815b-0477a2ed5676",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/8b06ec1c-e99c-4f32-815b-0477a2ed5676/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "529",
+            "Name": "OPM Test Customer 6               ",
+            "ContactName": "",
+            "Address": {
+                "State": {
+                    "Name": "Victoria",
+                    "Abbreviation": "VIC",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "23 Test Road",
+                "Address2": "",
+                "City": "Test",
+                "Postcode": "0"
+            },
+            "ContactMethods": {
+                "Email": "info@cmykhub.com"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/f76852e6-15e3-4483-aef5-f2bd2f78ab00",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/f76852e6-15e3-4483-aef5-f2bd2f78ab00/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "728",
+            "Name": "Peter Pizza",
+            "ContactName": "",
+            "Address": {
+                "State": {
+                    "Name": "Western Australia",
+                    "Abbreviation": "WA",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "",
+                "Address2": "",
+                "City": "",
+                "Postcode": "0"
+            },
+            "ContactMethods": {},
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/5fecf513-b603-400c-b675-7f68d44b385a",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/5fecf513-b603-400c-b675-7f68d44b385a/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "3682",
+            "Name": "Test Company 10",
+            "ContactName": "Doug Robey",
+            "Address": {
+                "State": {
+                    "Name": "Victoria",
+                    "Abbreviation": "VIC",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "23 Somewhere Street",
+                "Address2": "",
+                "City": "Melbourne",
+                "Postcode": "3000"
+            },
+            "ContactMethods": {
+                "Email": "doug.robey@maiaustralia.com.au",
+                "Phone": "99999999"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/3db07494-ac5c-4174-9df9-a5dd27834fc6",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/3db07494-ac5c-4174-9df9-a5dd27834fc6/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "340",
+            "Name": "Test Company 11 ",
+            "ContactName": "Test Company 11",
+            "Address": {
+                "State": {
+                    "Name": "Victoria",
+                    "Abbreviation": "VIC",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "23 Somewhere Street",
+                "Address2": "23 Somewhere Street",
+                "City": "Melbourne",
+                "Postcode": "3456"
+            },
+            "ContactMethods": {
+                "Email": "doug.robey@cmykhub.com.au",
+                "Phone": "0000000000"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/7c38d0ef-124d-4d05-a77c-02858623d22e",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/7c38d0ef-124d-4d05-a77c-02858623d22e/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "386",
+            "Name": "Test Company 9",
+            "ContactName": "Test Company 9",
+            "Address": {
+                "State": {
+                    "Name": "Victoria",
+                    "Abbreviation": "VIC",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "23 Somewhere Street",
+                "Address2": "23 Somewhere Street",
+                "City": "Melbourne",
+                "Postcode": "2341"
+            },
+            "ContactMethods": {
+                "Email": "mikedenholm@cmykhub.com",
+                "Phone": "1234151512"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/3e69d178-21bb-4a60-9cd2-89fc175415b1",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/3e69d178-21bb-4a60-9cd2-89fc175415b1/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "6513",
+            "Name": "Test Customer 123",
+            "ContactName": "test",
+            "Address": {
+                "State": {
+                    "Name": "Australian Capital Territory",
+                    "Abbreviation": "ACT",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "test, t",
+                "Address2": "",
+                "City": "test",
+                "Postcode": "12345"
+            },
+            "ContactMethods": {
+                "Email": "michael.denholm@cmykhub.com",
+                "Phone": "0435342212"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/aa2cf81e-f562-496f-ab3d-0524f2300d72",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/aa2cf81e-f562-496f-ab3d-0524f2300d72/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "CustomerId": "6518",
+            "Name": "Test Customer 321012",
+            "ContactName": "test",
+            "Address": {
+                "State": {
+                    "Name": "Victoria",
+                    "Abbreviation": "VIC",
+                    "CountryCode": "AU"
+                },
+                "Country": {
+                    "Code": "AU",
+                    "Name": "Australia",
+                    "Iso2Digit": null,
+                    "Iso3Digit": null,
+                    "CallingCode": null
+                },
+                "Address1": "test, t",
+                "Address2": "",
+                "City": "test",
+                "Postcode": "12345"
+            },
+            "ContactMethods": {
+                "Email": "test321012@cmykhub.com",
+                "Phone": "0435342212"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Customers/31522183-9fd7-4664-b943-e0b0e7bf7c22",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                },
+                {
+                    "Uri": "http://tempuri.org/man/Customers/31522183-9fd7-4664-b943-e0b0e7bf7c22/DeliveryAddresses",
+                    "Relation": "http://schemas.cmykhub.com/api/customers/relations/delivery",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Page": {
+        "Page": 0,
+        "Size": 50
+    },
+    "Sort": {
+        "Sort": "Name",
+        "Asc": true
+    },
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Customers",
+            "Relation": "next",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Customers",
+            "Relation": "last",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

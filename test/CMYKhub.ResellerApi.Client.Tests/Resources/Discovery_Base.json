@@ -1,0 +1,16 @@
+﻿{
+    "Title": "CMYKhub Reseller API",
+    "Description": "API for accessing reseller resources",
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man",
+            "Relation": "http://schemas.cmykhub.com/api/orders",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp",
+            "Relation": "http://schemas.cmykhub.com/api/prepress",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

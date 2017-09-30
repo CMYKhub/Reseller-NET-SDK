@@ -1,0 +1,110 @@
+﻿{
+    "Items": [
+        {
+            "Id": "356",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/356",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "357",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/357",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "358",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/358",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "359",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/359",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "360",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/360",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "361",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/361",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "362",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/362",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "442",
+            "Description": "Carta Solida 1 sided (505 ums) uncoated rear White Bleach Board",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/442",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1976",
+            "Description": "Uncoated Self Adhesive  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1976",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Papers",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

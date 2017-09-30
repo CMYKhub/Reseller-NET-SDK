@@ -1,0 +1,38 @@
+﻿{
+    "OrderId": "139424",
+    "DateOrdered": "2012-03-10T16:20:59.003Z",
+    "DateEstimatedDispatch": null,
+    "DateCompleted": null,
+    "StatusName": "Cancelled",
+    "OrderNumber": "139424",
+    "CustomerOrderRef": "",
+    "Quantity": 2500,
+    "Description": null,
+    "PaperTypeDescription": null,
+    "ResellerId": null,
+    "DeliveryType": {
+        "DeliveryTypeID": 0,
+        "Name": "ToCentre"
+    },
+    "DeliveryNote": null,
+    "Price": null,
+    "QuoteId": "299363",
+    "ResellerSamples": false,
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/orders/139424",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/accounts/payments?orderId=139424",
+            "Relation": "http://schemas.cmykhub.com/api/orders/relations/payment",
+            "MediaType": "text/html"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/orders?orderId=139424",
+            "Relation": "http://schemas.cmykhub.com/api/prepress/relations/orders/artwork",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

@@ -1,0 +1,748 @@
+﻿{
+    "Items": [
+        {
+            "Id": "458",
+            "Description": "1  Sided Coated Board  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/458",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "160",
+            "Description": "Artboard  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/160",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "447",
+            "Description": "Artboard  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/447",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "823",
+            "Description": "Artboard  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/823",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "825",
+            "Description": "Artboard  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/825",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2005",
+            "Description": "Black Board-White INK  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/2005",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1978",
+            "Description": "Cast Gloss Self Adhesive  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1978",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1994",
+            "Description": "Clear Re-positional  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1994",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "611",
+            "Description": "EcoStar Gloss 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/611",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "612",
+            "Description": "EcoStar Gloss 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/612",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "615",
+            "Description": "EcoStar Gloss 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/615",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "616",
+            "Description": "EcoStar Gloss 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/616",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "617",
+            "Description": "EcoStar Gloss 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/617",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "618",
+            "Description": "EcoStar Silk 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/618",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "619",
+            "Description": "EcoStar Silk 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/619",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "622",
+            "Description": "EcoStar Silk 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/622",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "623",
+            "Description": "EcoStar Silk 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/623",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "624",
+            "Description": "EcoStar Silk 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/624",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "356",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/356",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "357",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/357",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "358",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/358",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "359",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/359",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "360",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/360",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "361",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/361",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "362",
+            "Description": "EcoStar Uncoated 100% Recycled  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/362",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "152",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/152",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "153",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/153",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "154",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/154",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "155",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/155",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "156",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/156",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "157",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/157",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "158",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/158",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "164",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/164",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "372",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/372",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1909",
+            "Description": "Gloss  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1909",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1975",
+            "Description": "Knight 2 Sided Linen  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1975",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1977",
+            "Description": "Knight Premium smooth  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1977",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "307",
+            "Description": "Knight Premium Smooth  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/307",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "173",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/173",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "630",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/630",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "631",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/631",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "783",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/783",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "784",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/784",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "785",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/785",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2012",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/2012",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2013",
+            "Description": "Laser  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/2013",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1414",
+            "Description": "Metallic Gold  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1414",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1461",
+            "Description": "Metallic Gold  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1461",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1463",
+            "Description": "Metallic Silver  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1463",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2006",
+            "Description": "Natural Board   ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/2006",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2004",
+            "Description": "Red Board-White INK  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/2004",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "151",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/151",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "159",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/159",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "161",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/161",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "162",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/162",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "163",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/163",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "165",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/165",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "166",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/166",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "168",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/168",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "368",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/368",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "373",
+            "Description": "Silk/Matt  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/373",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1989",
+            "Description": "Synthetic  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1989",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1990",
+            "Description": "Synthetic  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1990",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1987",
+            "Description": "Synthetic Clear Self Adhesive  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1987",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1988",
+            "Description": "Synthetic White Self Adhesive  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1988",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1976",
+            "Description": "Uncoated Self Adhesive  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1976",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1993",
+            "Description": "White Re-positional  ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Papers/1993",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Papers",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

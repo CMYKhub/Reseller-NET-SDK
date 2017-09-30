@@ -1,0 +1,15 @@
+﻿{
+    "Id": "356",
+    "Description": "EcoStar Uncoated 100% Recycled  ",
+    "Family": "EcoStar Uncoated 100% Recycled",
+    "Colour": "",
+    "Texture": "",
+    "Weight": 100,
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Papers/356",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

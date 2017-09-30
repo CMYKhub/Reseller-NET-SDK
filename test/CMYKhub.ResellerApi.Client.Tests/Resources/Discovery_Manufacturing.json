@@ -1,0 +1,29 @@
+﻿{
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Customers",
+            "Relation": "http://schemas.cmykhub.com/api/customers/relations",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/orders",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/order",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Papers",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/papers",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Finishings",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/finishings",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Finishing/Available",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/finishings/available",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

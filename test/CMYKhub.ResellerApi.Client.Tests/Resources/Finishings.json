@@ -1,0 +1,1419 @@
+﻿{
+    "Items": [
+        {
+            "Id": "91",
+            "Name": "Acetate Cover",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/91",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "92",
+            "Name": "Board Back",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/92",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "24",
+            "Name": "Bundling - Elastic Bands",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/24",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "66",
+            "Name": "Bundling - Kraft Wrap by Hand",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/66",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "22",
+            "Name": "Bundling - Shrink Wrapping",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/22",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "83",
+            "Name": "CassetteCalendars",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/83",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "135",
+            "Name": "Corflute Cut and Score",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/135",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "78",
+            "Name": "Crystal Varnish",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/78",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "11",
+            "Name": "Diecutting - From Standing Forme",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/11",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "54",
+            "Name": "Diecutting - From Supplied Forme",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/54",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "85",
+            "Name": "Double gate fold 8pp A4",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/85",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "104",
+            "Name": "Drill 2 Hole ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/104",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "105",
+            "Name": "Drill 3 Hole ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/105",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "106",
+            "Name": "Drill 4 Hole ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/106",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "107",
+            "Name": "Drill 5 Hole",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/107",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "47",
+            "Name": "Drilling  - Booklet (up to 5 X 4-6mm holes - specify in notes)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/47",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "36",
+            "Name": "Drilling - up to 5 X 4-6mm holes  (specify in notes)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/36",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "138",
+            "Name": "Foiling - Metal Gold 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/138",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "137",
+            "Name": "Foiling - Metal Silver 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/137",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "45",
+            "Name": "Fold - 10pp DL Concertina (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/45",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "57",
+            "Name": "Fold - 10pp DL Fold in first panel then Double Parallel (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/57",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "56",
+            "Name": "Fold - 10pp DL Fold in last panel first then Double Parallel (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/56",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "55",
+            "Name": "Fold - 10pp DL Roll fold (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/55",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "88",
+            "Name": "Fold - 6pp DL Roll Fold",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/88",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "6",
+            "Name": "Fold - 6pp DL Roll Fold (Outer-98/99/100mm, Inner-100/99/98mm)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/6",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "39",
+            "Name": "Fold - 6pp DL Z fold (99,99,99mm preferred)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/39",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "51",
+            "Name": "Fold - 8pp DL Concertina (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/51",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "53",
+            "Name": "Fold - 8pp DL Double Gate Fold (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/53",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "52",
+            "Name": "Fold - 8pp DL Double Parallel (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/52",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "7",
+            "Name": "Fold - 8pp DL Roll (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/7",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "38",
+            "Name": "Fold - A1 to A4 (16pp section)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/38",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "44",
+            "Name": "Fold - Cross fold to A4",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/44",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "43",
+            "Name": "Fold - Cross fold to A5",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/43",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "5",
+            "Name": "Fold - Cross fold to DL",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/5",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "41",
+            "Name": "Fold - Roll Fold 6pp A4 (includes scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/41",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "46",
+            "Name": "Fold - Roll Fold 6pp A4 (includes scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/46",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "72",
+            "Name": "Fold - Roll fold 6pp A4 (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/72",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2",
+            "Name": "Fold - Roll fold A4 to DL",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/2",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "4",
+            "Name": "Fold - Single fold in half",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/4",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "65",
+            "Name": "Fold - Single fold Off Centre (Specify in notes)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/65",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "35",
+            "Name": "Fold 12pp DL (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/35",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "77",
+            "Name": "Gloss Spot UV",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/77",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "79",
+            "Name": "Gloss UV 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/79",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "80",
+            "Name": "Gloss UV 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/80",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "116",
+            "Name": "Hand Collation - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/116",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "112",
+            "Name": "Hand Fold A3 to A4 - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/112",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "114",
+            "Name": "Hand Fold A3 to DL - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/114",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "108",
+            "Name": "Hand Fold A4 to A5 - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/108",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "110",
+            "Name": "Hand Fold A4 to DL - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/110",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "121",
+            "Name": "Hand Saddle Stitch - Per Book",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/121",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "123",
+            "Name": "Hand Trimming - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/123",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "134",
+            "Name": "Insert into Metal A-Frame",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/134",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "103",
+            "Name": "Inserting Cover into Binder",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/103",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "84",
+            "Name": "KwikKopy Diecut",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/84",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "26",
+            "Name": "Laminating - Gloss 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/26",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "142",
+            "Name": "Laminating - Gloss 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/142",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "27",
+            "Name": "Laminating - Gloss 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/27",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "143",
+            "Name": "Laminating - Gloss 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/143",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "30",
+            "Name": "Laminating - Matt 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/30",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "144",
+            "Name": "Laminating - Matt 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/144",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "31",
+            "Name": "Laminating - Matt 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/31",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "145",
+            "Name": "Laminating - Matt 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/145",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "140",
+            "Name": "Laminating - New Velvet 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/140",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "146",
+            "Name": "Laminating - New Velvet 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/146",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "136",
+            "Name": "Laminating - New Velvet 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/136",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "147",
+            "Name": "Laminating - New Velvet 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/147",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "117",
+            "Name": "Machine Collation",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/117",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "113",
+            "Name": "Machine Fold A3 to A4 ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/113",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "115",
+            "Name": "Machine Fold A3 to DL ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/115",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "109",
+            "Name": "Machine Fold A4 to A5 ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/109",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "111",
+            "Name": "Machine Fold A4 to DL ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/111",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "122",
+            "Name": "Machine Saddle Stitch - Per Book",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/122",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "120",
+            "Name": "Machine Staple Online",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/120",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "124",
+            "Name": "Machine Trimming - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/124",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "81",
+            "Name": "Magnet Backing",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/81",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "90",
+            "Name": "OWGC - 1 Score",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/90",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "127",
+            "Name": "Pack into Cartons",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/127",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "128",
+            "Name": "Pack into Envelope",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/128",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "17",
+            "Name": "Padding - Inc BoxBoard (Number of Pads)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/17",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "118",
+            "Name": "Padding - Per Pad",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/118",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "86",
+            "Name": "Perfect Bind",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/86",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "87",
+            "Name": "Perfect Bind",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/87",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "14",
+            "Name": "Perforate",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/14",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "89",
+            "Name": "Perforate",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/89",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "76",
+            "Name": "PMS Silver",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/76",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1",
+            "Name": "Saddle Staple",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/1",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "132",
+            "Name": "SCODIX 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/132",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "133",
+            "Name": "SCODIX 2 Sides",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/133",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "37",
+            "Name": "Score and double gate fold 8pp A4",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/37",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "119",
+            "Name": "Scoring ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/119",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "8",
+            "Name": "Scoring - 1 Score",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/8",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "42",
+            "Name": "Scoring - 2 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/42",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "74",
+            "Name": "Scoring - 2 Parallel Scores (folder)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/74",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "69",
+            "Name": "Scoring - 3 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/69",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "73",
+            "Name": "Scoring - 3 Parallel Scores (folder)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/73",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "70",
+            "Name": "Scoring - 4 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/70",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "75",
+            "Name": "Scoring - 4 Parallel Scores (folder)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/75",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "71",
+            "Name": "Scoring - 5 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/71",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "125",
+            "Name": "Shrinkwrapping",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/125",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "126",
+            "Name": "Shrinkwrapping with Board",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/126",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "141",
+            "Name": "Snap Corporate Product",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/141",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "95",
+            "Name": "Spiral Binding 12mm to 24mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/95",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "96",
+            "Name": "Spiral Binding 24mm to 40mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/96",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "93",
+            "Name": "Spiral Binding 6mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/93",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "94",
+            "Name": "Spiral Binding 6mm to 12mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/94",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "97",
+            "Name": "Spiral Binding Over 40mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/97",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "82",
+            "Name": "Stick on Magnet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/82",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "50",
+            "Name": "Trimming - 2 extra items on sheet (different size same quantity each)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/50",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "61",
+            "Name": "Trimming - 2 extra items on sheet (same size total quantity)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/61",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "58",
+            "Name": "Trimming - 3 extra items on sheet (different size same quantity each)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/58",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "62",
+            "Name": "Trimming - 3 extra items on sheet (same size total quantity)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/62",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "59",
+            "Name": "Trimming - 4 extra items on sheet (different size same quantity each)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/59",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "63",
+            "Name": "Trimming - 4 extra items on sheet (same size total quantity)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/63",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "60",
+            "Name": "Trimming - 5 extra items (different size same quantity)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/60",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "64",
+            "Name": "Trimming - 5 extra items on sheet (same size total quantity)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/64",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "40",
+            "Name": "Trimming - Round 2 Corners (7mm radius Punch)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/40",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "67",
+            "Name": "Trimming - Round 3 Corners (7mm radius Punch)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/67",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "68",
+            "Name": "Trimming - Round 4 Corners (7mm radius Punch)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/68",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "48",
+            "Name": "Trimming - Round Corners 7mm radius Punch (Please note which corners to be rounded)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/48",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "49",
+            "Name": "Trimming - Total Quantity of Items",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/49",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "129",
+            "Name": "Wire Bind",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/129",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "131",
+            "Name": "Wire Bind",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/131",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "130",
+            "Name": "Wire Bind with Hanger",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/130",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "100",
+            "Name": "Wire Binding 12mm to 24mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/100",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "101",
+            "Name": "Wire Binding 24mm to 40mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/101",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "98",
+            "Name": "Wire Binding 6mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/98",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "99",
+            "Name": "Wire Binding 6mm to 12mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/99",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "102",
+            "Name": "Wire Binding Over 40mm",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/102",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Finishings",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

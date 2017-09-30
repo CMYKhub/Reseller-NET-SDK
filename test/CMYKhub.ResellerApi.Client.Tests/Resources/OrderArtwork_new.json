@@ -1,0 +1,28 @@
+﻿{
+    "Id": "117e5c28-0b35-4466-9842-2605036a92b6",
+    "PackageId": null,
+    "Filename": "10_5_10_5mm-Gusset-A1.pdf",
+    "MD5Hash": "",
+    "ContentType": "application/pdf",
+    "UploadedBy": null,
+    "UploadedById": null,
+    "Status": null,
+    "UploadDate": "2017-09-29T08:00:00.0000000Z",
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/pp/Uploads/139424/Artwork/117e5c28-0b35-4466-9842-2605036a92b6",
+            "Relation": "self",
+            "MediaType": "application/json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Uploads/139424/Artwork/117e5c28-0b35-4466-9842-2605036a92b6/Chunks",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Files/Chunks",
+            "MediaType": "application/octet-stream"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Uploads/139424/Artwork/117e5c28-0b35-4466-9842-2605036a92b6/Content",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Files",
+            "MediaType": "application/octet-stream"
+        }
+    ]
+}

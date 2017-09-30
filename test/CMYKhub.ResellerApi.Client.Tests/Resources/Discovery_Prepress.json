@@ -1,0 +1,21 @@
+﻿{
+    "Title": "Prepress Api.\r\n",
+    "Description": "Welcome to the Prepress Api.\r\nThis api is responsible for prepress needs of the manufacturing hubs\r\nUse the links to find available resources",
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/pp/Orders",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Orders",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Orders/Artwork",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Orders/Artwork",
+            "MediaType": "application/json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Uploads",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Uploads",
+            "MediaType": "application/json"
+        }
+    ]
+}

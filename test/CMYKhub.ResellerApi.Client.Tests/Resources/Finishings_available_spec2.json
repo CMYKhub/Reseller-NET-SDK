@@ -1,0 +1,264 @@
+﻿{
+    "Items": [
+        {
+            "Id": "8",
+            "Name": "Scoring - 1 Score",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/8",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "11",
+            "Name": "Diecutting - From Standing Forme",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/11",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "14",
+            "Name": "Perforate",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/14",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "17",
+            "Name": "Padding - Inc BoxBoard (Number of Pads)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/17",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "22",
+            "Name": "Bundling - Shrink Wrapping",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/22",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "24",
+            "Name": "Bundling - Elastic Bands",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/24",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "26",
+            "Name": "Laminating - Gloss 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/26",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "27",
+            "Name": "Laminating - Gloss 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/27",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "30",
+            "Name": "Laminating - Matt 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/30",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "31",
+            "Name": "Laminating - Matt 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/31",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "36",
+            "Name": "Drilling - up to 5 X 4-6mm holes  (specify in notes)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/36",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "42",
+            "Name": "Scoring - 2 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/42",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "49",
+            "Name": "Trimming - Total Quantity of Items",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/49",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "54",
+            "Name": "Diecutting - From Supplied Forme",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/54",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "66",
+            "Name": "Bundling - Kraft Wrap by Hand",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/66",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "69",
+            "Name": "Scoring - 3 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/69",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "70",
+            "Name": "Scoring - 4 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/70",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "71",
+            "Name": "Scoring - 5 Parallel Scores",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/71",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "136",
+            "Name": "Laminating - New Velvet 2 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/136",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "140",
+            "Name": "Laminating - New Velvet 1 Side",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/140",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1",
+            "Name": "Saddle Staple",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/1",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "86",
+            "Name": "Perfect Bind",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/86",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "129",
+            "Name": "Wire Bind",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/129",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Finishings",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

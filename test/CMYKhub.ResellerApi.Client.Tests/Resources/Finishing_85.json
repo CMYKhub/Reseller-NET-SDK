@@ -1,0 +1,16 @@
+﻿{
+    "Id": "85",
+    "Name": "Double gate fold 8pp A4",
+    "Description": "",
+    "Type": {
+        "Id": "0",
+        "Name": "SingleItemSheet"
+    },
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Finishings/85",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

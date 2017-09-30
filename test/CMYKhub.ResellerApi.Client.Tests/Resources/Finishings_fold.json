@@ -1,0 +1,396 @@
+﻿{
+    "Items": [
+        {
+            "Id": "85",
+            "Name": "Double gate fold 8pp A4",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/85",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "45",
+            "Name": "Fold - 10pp DL Concertina (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/45",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "57",
+            "Name": "Fold - 10pp DL Fold in first panel then Double Parallel (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/57",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "56",
+            "Name": "Fold - 10pp DL Fold in last panel first then Double Parallel (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/56",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "55",
+            "Name": "Fold - 10pp DL Roll fold (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/55",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "88",
+            "Name": "Fold - 6pp DL Roll Fold",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/88",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "6",
+            "Name": "Fold - 6pp DL Roll Fold (Outer-98/99/100mm, Inner-100/99/98mm)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/6",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "39",
+            "Name": "Fold - 6pp DL Z fold (99,99,99mm preferred)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/39",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "51",
+            "Name": "Fold - 8pp DL Concertina (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/51",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "53",
+            "Name": "Fold - 8pp DL Double Gate Fold (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/53",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "52",
+            "Name": "Fold - 8pp DL Double Parallel (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/52",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "7",
+            "Name": "Fold - 8pp DL Roll (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/7",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "38",
+            "Name": "Fold - A1 to A4 (16pp section)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/38",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "44",
+            "Name": "Fold - Cross fold to A4",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/44",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "43",
+            "Name": "Fold - Cross fold to A5",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/43",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "5",
+            "Name": "Fold - Cross fold to DL",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/5",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "41",
+            "Name": "Fold - Roll Fold 6pp A4 (includes scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/41",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "46",
+            "Name": "Fold - Roll Fold 6pp A4 (includes scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/46",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "72",
+            "Name": "Fold - Roll fold 6pp A4 (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/72",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2",
+            "Name": "Fold - Roll fold A4 to DL",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/2",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "4",
+            "Name": "Fold - Single fold in half",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/4",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "65",
+            "Name": "Fold - Single fold Off Centre (Specify in notes)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/65",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "35",
+            "Name": "Fold 12pp DL (no scoring)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/35",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "112",
+            "Name": "Hand Fold A3 to A4 - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/112",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "114",
+            "Name": "Hand Fold A3 to DL - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/114",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "108",
+            "Name": "Hand Fold A4 to A5 - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/108",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "110",
+            "Name": "Hand Fold A4 to DL - Per Sheet",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/110",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "113",
+            "Name": "Machine Fold A3 to A4 ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/113",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "115",
+            "Name": "Machine Fold A3 to DL ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/115",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "109",
+            "Name": "Machine Fold A4 to A5 ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/109",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "111",
+            "Name": "Machine Fold A4 to DL ",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/111",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "37",
+            "Name": "Score and double gate fold 8pp A4",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/37",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "74",
+            "Name": "Scoring - 2 Parallel Scores (folder)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/74",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "73",
+            "Name": "Scoring - 3 Parallel Scores (folder)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/73",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "75",
+            "Name": "Scoring - 4 Parallel Scores (folder)",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Finishings/75",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Finishings",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}
