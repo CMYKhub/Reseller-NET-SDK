@@ -15,4 +15,8 @@
     <copyright>Copyright 2017</copyright>
     <tags>CMYKhub REST API Client</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\*.dll" target="lib" />
+    <file src="..\..\readme.md" target="" />
+  </files>
 </package>
