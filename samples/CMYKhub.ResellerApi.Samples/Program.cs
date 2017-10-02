@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using System.Net.Http;
 using CMYKhub.ResellerApi.Client.Manufacturing;
 using CMYKhub.ResellerApi.Client.Prepress;
 
@@ -20,9 +19,12 @@ namespace CMYKhub.ResellerApi.Samples
             }
             else
             {
+                var apiUrl = "https://hublink.api.cmykhub.com";
+                var resellerId = "9999";
+                var apiKey = "INSERT KEY HERE";
                 var clientFactory = new CMYKhub.ResellerApi.Client.HttpClientFactory();
-                var manufacturingClient = new HublinkManufacturingClient(clientFactory, "https://hublink.api.cmykhub.com", "9999", "INSERT KEY HERE");
-                var prepressClient = new HublinkPrepressClient(clientFactory, "https://hublink.api.cmykhub.com", "9999", "INSERT KEY HERE");
+                var manufacturingClient = new HublinkManufacturingClient(clientFactory, apiUrl, resellerId, apiKey);
+                var prepressClient = new HublinkPrepressClient(clientFactory, apiUrl, resellerId, apiKey);
                 if (args[0] == "order-get" && args.Count() == 2)
                 {
                     var orderId = args[1];
