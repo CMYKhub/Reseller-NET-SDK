@@ -1,4 +1,4 @@
-# .Net Reseller API REST Client
+# .Net Reseller REST API Client
 
 This repository contains the code to access the [CMYKhub](https://www.cmykhub.com) Reseller API from .Net.
 
