@@ -6,17 +6,13 @@
     <title>Client SDK for the Reseller REST API</title>
     <authors>Scott Florisson</authors>
     <owners>CMYKhub</owners>
-    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>-->
     <projectUrl>https://www.cmykhub.com</projectUrl>
-    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Client SDK for the Reseller REST API</description>
-    <!--<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>-->
     <copyright>Copyright 2017</copyright>
     <tags>CMYKhub REST API Client</tags>
   </metadata>
   <files>
-    <file src="bin\Release\*.dll" target="lib" />
-    <file src="..\..\readme.md" target="" />
+    <file src="bin\Release\CMYKhub.ResellerApi.Client.dll" target="lib" />
   </files>
 </package>
