@@ -149,7 +149,7 @@ namespace CMYKhub.ResellerApi.Samples
             else
                 papers = manufacturingClient.GetPapersAsync().Result;
             foreach (var paper in papers)
-                Console.WriteLine($"{paper.Id} : {paper.Name}");
+                Console.WriteLine($"{paper.Id} : {paper.Description}");
         }
 
         private static void GetProductPrice(string productId)
