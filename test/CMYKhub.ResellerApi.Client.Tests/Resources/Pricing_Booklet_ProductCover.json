@@ -1,0 +1,13 @@
+﻿{
+    "Expires": "2017-01-01T00:00:00.000Z",
+    "Price": {
+        "ExTax": 1766.95,
+        "Tax": 176.7,
+        "IncTax": 1943.65,
+        "Currency": {
+            "Code": "AUD"
+        }
+    },
+    "ResellerId": "4926",
+    "Token": "eyIkdHlwZSI6IkNNWiLkNvcmUuUdmljZXMiLCJXaXphcmQiOnsiJrtg"
+}

@@ -58,8 +58,6 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             return (await GetAsync<Customers>(customersLink.Uri)).Items;
         }
 
-
-
         public async Task<Paper> GetPaperAsync(string id)
         {
             var discovery = await DiscoverManufacturingAsync();
@@ -82,7 +80,6 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             var paperUri = new UriBuilder(papersLink.Uri) { Query = $"name={name}" }.Uri.ToString();
             return (await GetAsync<Papers>(paperUri)).Items;
         }
-
 
         public async Task<Finishing> GetFinishingAsync(string id)
         {
@@ -117,9 +114,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             var finishingUri = new UriBuilder(finishingsLink.Uri) { Query = query }.Uri.ToString();
             return (await GetAsync<Finishings>(finishingUri)).Items;
         }
-
-
-
+        
         public async Task<Product> GetProductAsync(string id)
         {
             var discovery = await DiscoverManufacturingAsync();
@@ -148,6 +143,13 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             var discovery = await DiscoverManufacturingAsync();
             var pricingLink = discovery.Links.FindLinkByRelation(ManufacturingPricingStandard);
             return (await PostAsync<StandardPriceRequest, ProductPrice>(pricingLink.Uri, request));
+        }
+
+        public async Task<ProductPrice> CreatePriceAsync(BookletProductRequest request)
+        {
+            var discovery = await DiscoverManufacturingAsync();
+            var pricingLink = discovery.Links.FindLinkByRelation(ManufacturingPricingBooklet);
+            return (await PostAsync<BookletProductRequest, ProductPrice>(pricingLink.Uri, request));
         }
     }
 }
