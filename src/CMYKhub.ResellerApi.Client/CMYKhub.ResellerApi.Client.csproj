@@ -60,6 +60,7 @@
     <Compile Include="Manufacturing\BookletBodySection.cs" />
     <Compile Include="Manufacturing\BookletCoverSection.cs" />
     <Compile Include="Manufacturing\BookletProductRequest.cs" />
+    <Compile Include="ClientSettings.cs" />
     <Compile Include="Manufacturing\Country.cs" />
     <Compile Include="Manufacturing\Currency.cs" />
     <Compile Include="Manufacturing\Finishing.cs" />

@@ -6,7 +6,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
     {
         protected override HublinkPrepressClient CreateClient()
         {
-            return new HublinkPrepressClient(base.clientFactory.Object, baseUri, resellerId, apiKey);
+            return new HublinkPrepressClient(base.clientFactory.Object, new ClientSettings(baseUri, resellerId, apiKey));
         }
     }
 }

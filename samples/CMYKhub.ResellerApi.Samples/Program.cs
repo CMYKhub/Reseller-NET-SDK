@@ -27,12 +27,7 @@ namespace CMYKhub.ResellerApi.Samples
                 var prepressClient = new HublinkPrepressClient(clientFactory, apiUrl, resellerId, apiKey);
                 if (args[0] == "order-get" && args.Count() == 2)
                 {
-                    var orderId = args[1];
-                    var order = manufacturingClient.GetOrderAsync(orderId).Result;
-                    Console.WriteLine($"Date Ordered: {order.DateOrdered}");
-                    Console.WriteLine($"Description: {order.Description}");
-                    Console.WriteLine($"Quantity: {order.Quantity}");
-                    Console.WriteLine($"Status: {order.StatusName}");
+                    GetOrder(args[1]) ;
                 }
                 else if (args[0] == "customer-get" && args.Count() == 2)
                 {
@@ -65,9 +60,38 @@ namespace CMYKhub.ResellerApi.Samples
             Console.ReadKey();
         }
 
+        private static HublinkManufacturingClient GetManufacturingClient()
+        {
+            var apiUrl = "https://hublink.api.cmykhub.com";
+            var resellerId = "9999";
+            var apiKey = "INSERT KEY HERE";
+            var clientFactory = new CMYKhub.ResellerApi.Client.HttpClientFactory();
+            return new HublinkManufacturingClient(clientFactory, apiUrl, resellerId, apiKey);
+
+        }
+
+        private static HublinkPrepressClient GetPrepressClient()
+        {
+            var apiUrl = "https://hublink.api.cmykhub.com";
+            var resellerId = "9999";
+            var apiKey = "INSERT KEY HERE";
+            var clientFactory = new CMYKhub.ResellerApi.Client.HttpClientFactory();
+            return new HublinkPrepressClient(clientFactory, apiUrl, resellerId, apiKey);
+
+        }
+
+        private static void GetOrder(string number)
+        {
+            var manufacturingClient = GetManufacturingClient();
+            var order = manufacturingClient.GetOrderAsync(number).Result;
+            Console.WriteLine($"Date Ordered: {order.DateOrdered}");
+            Console.WriteLine($"Description: {order.Description}");
+            Console.WriteLine($"Quantity: {order.Quantity}");
+            Console.WriteLine($"Status: {order.StatusName}");
+        }
+
         private static void PrintHelp()
         {
-
             Console.WriteLine("Options");
             Console.WriteLine("  order-get [orderId] : this will return the order information for the order with the given id");
             Console.WriteLine("");

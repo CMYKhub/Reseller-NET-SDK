@@ -17,8 +17,8 @@ namespace CMYKhub.ResellerApi.Client.Prepress
         const string MediaTypeJson = "application/json";
         const int FileChunkSize = 1024000;//bytes
 
-        public HublinkPrepressClient(IHttpClientFactory clientFactory, string baseUri, string resellerId, string apiKey)
-            : base(clientFactory, baseUri, resellerId, apiKey) { }
+        public HublinkPrepressClient(IHttpClientFactory clientFactory, ClientSettings settings)
+            : base(clientFactory, settings) { }
 
         protected async Task<PrepressApiDiscovery> DiscoverPrepressAsync()
         {

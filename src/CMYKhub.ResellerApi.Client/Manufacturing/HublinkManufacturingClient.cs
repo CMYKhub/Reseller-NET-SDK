@@ -18,8 +18,8 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         private const string ManufacturingPricingStandard = "http://schemas.cmykhub.com/api/hublink/relations/pricing/standard";
         private const string ManufacturingPricingBooklet = "http://schemas.cmykhub.com/api/hublink/relations/pricing/booklet";
 
-        public HublinkManufacturingClient(IHttpClientFactory clientFactory, string baseUri, string resellerId, string apiKey)
-            : base(clientFactory, baseUri, resellerId, apiKey) { }
+        public HublinkManufacturingClient(IHttpClientFactory clientFactory, ClientSettings settings)
+            : base(clientFactory, settings) { }
 
         protected async Task<Discovery> DiscoverManufacturingAsync()
         {

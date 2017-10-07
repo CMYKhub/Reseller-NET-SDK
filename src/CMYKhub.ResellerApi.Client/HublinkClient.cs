@@ -15,12 +15,12 @@ namespace CMYKhub.ResellerApi.Client
         private readonly string _apiKey;
         private Discovery _discovery;
 
-        public HublinkClient(IHttpClientFactory clientFactory, string baseUri, string resellerId, string apiKey)
+        public HublinkClient(IHttpClientFactory clientFactory, ClientSettings settings)
         {
             _clientFactory = clientFactory;
-            _baseUri = baseUri;
-            _resellerId = resellerId;
-            _apiKey = apiKey;
+            _baseUri = settings.BaseUri;
+            _resellerId = settings.ResellerId;
+            _apiKey = settings.ApiKey;
         }
 
         protected HttpClient GetClient()

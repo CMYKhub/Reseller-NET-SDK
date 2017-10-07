@@ -6,7 +6,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
     {
         protected override HublinkManufacturingClient CreateClient()
         {
-            return new HublinkManufacturingClient(base.clientFactory.Object, baseUri, resellerId, apiKey);
+            return new HublinkManufacturingClient(base.clientFactory.Object, new ClientSettings(baseUri, resellerId, apiKey));
         }
     }
 }
