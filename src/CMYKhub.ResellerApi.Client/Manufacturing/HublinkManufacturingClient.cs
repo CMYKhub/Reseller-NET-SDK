@@ -14,6 +14,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         private const string ManufacturingPapers = "http://schemas.cmykhub.com/api/hublink/relations/papers";
         private const string ManufacturingFinishings = "http://schemas.cmykhub.com/api/hublink/relations/finishings";
         private const string ManufacturingFinishingsAvailable = "http://schemas.cmykhub.com/api/hublink/relations/finishings/available";
+        private const string ManufacturingProducts = "http://schemas.cmykhub.com/api/hublink/relations/products";
 
         public HublinkManufacturingClient(IHttpClientFactory clientFactory, string baseUri, string resellerId, string apiKey)
             : base(clientFactory, baseUri, resellerId, apiKey) { }
@@ -113,6 +114,31 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
                 query = $"{query}&book.pp={spec.Book.Pp}&book.orientation={(int)spec.Book.Orientation}";
             var finishingUri = new UriBuilder(finishingsLink.Uri) { Query = query }.Uri.ToString();
             return (await GetAsync<Finishings>(finishingUri)).Items;
+        }
+
+
+
+        public async Task<Product> GetProductAsync(string id)
+        {
+            var discovery = await DiscoverManufacturingAsync();
+            var productsLink = discovery.Links.FindLinkByRelation(ManufacturingProducts);
+            var productUri = new UriBuilder(productsLink.Uri) { Query = $"productid={id}" }.Uri.ToString();
+            return await GetAsync<Product>(productUri);
+        }
+
+        public async Task<IEnumerable<Product>> GetProductsAsync()
+        {
+            var discovery = await DiscoverManufacturingAsync();
+            var productsLink = discovery.Links.FindLinkByRelation(ManufacturingProducts);
+            return (await GetAsync<Products>(productsLink.Uri)).Items;
+        }
+
+        public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
+        {
+            var discovery = await DiscoverManufacturingAsync();
+            var productsLink = discovery.Links.FindLinkByRelation(ManufacturingProducts);
+            var productUri = new UriBuilder(productsLink.Uri) { Query = $"name={name}" }.Uri.ToString();
+            return (await GetAsync<Products>(productUri)).Items;
         }
     }
 }

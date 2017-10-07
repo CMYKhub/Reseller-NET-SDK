@@ -24,6 +24,21 @@
             "Uri": "http://tempuri.org/man/Finishing/Available",
             "Relation": "http://schemas.cmykhub.com/api/hublink/relations/finishings/available",
             "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Products",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/products",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Pricing/Standard",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/pricing/standard",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Pricing/Booklet",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/pricing/booklet",
+            "MediaType": "application/vnd.cmykhub+json"
         }
     ]
 }

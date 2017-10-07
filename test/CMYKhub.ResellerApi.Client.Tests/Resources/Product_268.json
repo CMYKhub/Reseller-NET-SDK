@@ -1,0 +1,17 @@
+﻿{
+    "Id": "268",
+    "Name": "A3",
+    "Description": "150gsm Gloss Print 2 Side A3",
+    "Code": null,
+    "ProductGroup": {
+        "Id": "35",
+        "Name": "150gsm Gloss Print 2 Side"
+    },
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Products/268",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

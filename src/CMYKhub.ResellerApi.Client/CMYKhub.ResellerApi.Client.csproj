@@ -62,6 +62,7 @@
     <Compile Include="Manufacturing\FinishingAvailableSpec.cs" />
     <Compile Include="Manufacturing\Paper.cs" />
     <Compile Include="Manufacturing\Customer.cs" />
+    <Compile Include="Manufacturing\Products.cs" />
     <Compile Include="Manufacturing\Papers.cs" />
     <Compile Include="Manufacturing\Finishings.cs" />
     <Compile Include="Manufacturing\Customers.cs" />
@@ -69,6 +70,8 @@
     <Compile Include="Manufacturing\HublinkManufacturingClient.cs" />
     <Compile Include="Manufacturing\Order.cs" />
     <Compile Include="Manufacturing\Orders.cs" />
+    <Compile Include="Manufacturing\Product.cs" />
+    <Compile Include="Manufacturing\ProductGroup.cs" />
     <Compile Include="Manufacturing\State.cs" />
     <Compile Include="Prepress\ArtPackageResource.cs" />
     <Compile Include="Prepress\FileUploadResource.cs" />

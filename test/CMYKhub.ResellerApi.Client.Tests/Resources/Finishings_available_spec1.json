@@ -5,7 +5,7 @@
             "Name": "Fold - Roll fold A4 to DL",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/2",
+                    "Uri": "http://tempuri.org/man/Finishings/2",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -16,7 +16,7 @@
             "Name": "Fold - Single fold in half",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/4",
+                    "Uri": "http://tempuri.org/man/Finishings/4",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -27,7 +27,7 @@
             "Name": "Fold - 6pp DL Roll Fold (Outer-98/99/100mm, Inner-100/99/98mm)",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/6",
+                    "Uri": "http://tempuri.org/man/Finishings/6",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -38,7 +38,7 @@
             "Name": "Scoring - 1 Score",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/8",
+                    "Uri": "http://tempuri.org/man/Finishings/8",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -49,7 +49,7 @@
             "Name": "Diecutting - From Standing Forme",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/11",
+                    "Uri": "http://tempuri.org/man/Finishings/11",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -60,7 +60,7 @@
             "Name": "Perforate",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/14",
+                    "Uri": "http://tempuri.org/man/Finishings/14",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -71,7 +71,7 @@
             "Name": "Padding - Inc BoxBoard (Number of Pads)",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/17",
+                    "Uri": "http://tempuri.org/man/Finishings/17",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -82,7 +82,7 @@
             "Name": "Bundling - Shrink Wrapping",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/22",
+                    "Uri": "http://tempuri.org/man/Finishings/22",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -93,7 +93,7 @@
             "Name": "Bundling - Elastic Bands",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/24",
+                    "Uri": "http://tempuri.org/man/Finishings/24",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -104,7 +104,7 @@
             "Name": "Laminating - Gloss 1 Side",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/26",
+                    "Uri": "http://tempuri.org/man/Finishings/26",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -115,7 +115,7 @@
             "Name": "Laminating - Gloss 2 Side",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/27",
+                    "Uri": "http://tempuri.org/man/Finishings/27",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -126,7 +126,7 @@
             "Name": "Laminating - Matt 1 Side",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/30",
+                    "Uri": "http://tempuri.org/man/Finishings/30",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -137,7 +137,7 @@
             "Name": "Laminating - Matt 2 Side",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/31",
+                    "Uri": "http://tempuri.org/man/Finishings/31",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -148,7 +148,7 @@
             "Name": "Drilling - up to 5 X 4-6mm holes  (specify in notes)",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/36",
+                    "Uri": "http://tempuri.org/man/Finishings/36",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -159,7 +159,7 @@
             "Name": "Fold - 6pp DL Z fold (99,99,99mm preferred)",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/39",
+                    "Uri": "http://tempuri.org/man/Finishings/39",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -170,7 +170,7 @@
             "Name": "Scoring - 2 Parallel Scores",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/42",
+                    "Uri": "http://tempuri.org/man/Finishings/42",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -181,7 +181,7 @@
             "Name": "Trimming - Total Quantity of Items",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/49",
+                    "Uri": "http://tempuri.org/man/Finishings/49",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -192,7 +192,7 @@
             "Name": "Diecutting - From Supplied Forme",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/54",
+                    "Uri": "http://tempuri.org/man/Finishings/54",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -203,7 +203,7 @@
             "Name": "Fold - Single fold Off Centre (Specify in notes)",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/65",
+                    "Uri": "http://tempuri.org/man/Finishings/65",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -214,7 +214,7 @@
             "Name": "Scoring - 3 Parallel Scores",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/69",
+                    "Uri": "http://tempuri.org/man/Finishings/69",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -225,7 +225,7 @@
             "Name": "Scoring - 4 Parallel Scores",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/70",
+                    "Uri": "http://tempuri.org/man/Finishings/70",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -236,7 +236,7 @@
             "Name": "Scoring - 5 Parallel Scores",
             "Links": [
                 {
-                    "Uri": "http://localhost:50595/man/Finishings/71",
+                    "Uri": "http://tempuri.org/man/Finishings/71",
                     "Relation": "self",
                     "MediaType": "application/vnd.cmykhub+json"
                 }
@@ -245,7 +245,7 @@
     ],
     "Links": [
         {
-            "Uri": "http://localhost:50595/man/Finishings",
+            "Uri": "http://tempuri.org/man/Finishings",
             "Relation": "self",
             "MediaType": "application/vnd.cmykhub+json"
         }

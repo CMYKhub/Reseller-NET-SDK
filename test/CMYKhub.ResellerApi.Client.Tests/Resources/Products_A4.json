@@ -1,0 +1,1082 @@
+﻿{
+    "Items": [
+        {
+            "Id": "1872",
+            "Name": "594x210 Printed 2 side on 150gsm gloss art folded to A4",
+            "Description": "Digital Brochure 594x210 Printed 2 side on 150gsm gloss art folded to A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "150",
+                "Name": "Digital Brochure"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1872",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1871",
+            "Name": "630x297 Printed 2 side on 150gsm gloss art folded to A4",
+            "Description": "Digital Brochure 630x297 Printed 2 side on 150gsm gloss art folded to A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "150",
+                "Name": "Digital Brochure"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1871",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "197",
+            "Name": "A4",
+            "Description": "100gsm Laser Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "27",
+                "Name": "100gsm Laser Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/197",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "206",
+            "Name": "A4",
+            "Description": "170gsm Gloss Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "28",
+                "Name": "170gsm Gloss Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/206",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "215",
+            "Name": "A4",
+            "Description": "170gsm Gloss Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "29",
+                "Name": "170gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/215",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "224",
+            "Name": "A4",
+            "Description": "350gsm Board Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "30",
+                "Name": "350gsm Board Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/224",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "234",
+            "Name": "A4",
+            "Description": "350gsm Board Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "31",
+                "Name": "350gsm Board Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/234",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "244",
+            "Name": "A4",
+            "Description": "350gsm Board Print 2 Side Gloss Laminate 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "32",
+                "Name": "350gsm Board Print 2 Side Gloss Laminate 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/244",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "254",
+            "Name": "A4",
+            "Description": "350gsm Board Print 2 Side Matt Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "33",
+                "Name": "350gsm Board Print 2 Side Matt Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/254",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "264",
+            "Name": "A4",
+            "Description": "150gsm Gloss Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "34",
+                "Name": "150gsm Gloss Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/264",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "269",
+            "Name": "A4",
+            "Description": "150gsm Gloss Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "35",
+                "Name": "150gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/269",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "288",
+            "Name": "A4",
+            "Description": "250gsm Gloss Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "39",
+                "Name": "250gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/288",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "339",
+            "Name": "A4",
+            "Description": "100gsm Laser Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "45",
+                "Name": "100gsm Laser Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/339",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "373",
+            "Name": "A4",
+            "Description": "400gsm Board Print 2 Side Gloss Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "47",
+                "Name": "400gsm Board Print 2 Side Gloss Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/373",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "385",
+            "Name": "A4",
+            "Description": "115gsm Gloss Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "52",
+                "Name": "115gsm Gloss Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/385",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "396",
+            "Name": "A4",
+            "Description": "115gsm Gloss Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "53",
+                "Name": "115gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/396",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1075",
+            "Name": "A4",
+            "Description": "350gsm Board Print 2 Side Matt Laminate 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "77",
+                "Name": "350gsm Board Print 2 Side Matt Laminate 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1075",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1129",
+            "Name": "A4",
+            "Description": "100gsm EcoStar 100% Recycled Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "80",
+                "Name": "100gsm EcoStar 100% Recycled Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1129",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1143",
+            "Name": "A4",
+            "Description": "100gsm EcoStar 100% Recycled Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "81",
+                "Name": "100gsm EcoStar 100% Recycled Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1143",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1156",
+            "Name": "A4",
+            "Description": "120gsm Knight Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "82",
+                "Name": "120gsm Knight Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1156",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1170",
+            "Name": "A4",
+            "Description": "120gsm Knight Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "83",
+                "Name": "120gsm Knight Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1170",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1207",
+            "Name": "A4",
+            "Description": "170gsm Matt Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "84",
+                "Name": "170gsm Matt Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1207",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1221",
+            "Name": "A4",
+            "Description": "170gsm Matt Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "85",
+                "Name": "170gsm Matt Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1221",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1291",
+            "Name": "A4",
+            "Description": "250gsm Gloss Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "90",
+                "Name": "250gsm Gloss Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1291",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1314",
+            "Name": "A4",
+            "Description": "280gsm Coated 1 Side Board Print 1 Side Gloss Laminate 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "91",
+                "Name": "280gsm Coated 1 Side Board Print 1 Side Gloss Laminate 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1314",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1330",
+            "Name": "A4",
+            "Description": "280gsm Coated 1 Side Board Print 2 Side (Black on Back) Gloss Laminate 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "92",
+                "Name": "280gsm Coated 1 Side Board Print 2 Side (Black on Back) Gloss Laminate 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1330",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1358",
+            "Name": "A4",
+            "Description": "350gsm Board Print 1 Side Gloss Laminate 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "93",
+                "Name": "350gsm Board Print 1 Side Gloss Laminate 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1358",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1380",
+            "Name": "A4",
+            "Description": "400gsm Board Print 1 Side Gloss Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "94",
+                "Name": "400gsm Board Print 1 Side Gloss Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1380",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1401",
+            "Name": "A4",
+            "Description": "350gsm Board Print 1 Side Matt Laminate 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "95",
+                "Name": "350gsm Board Print 1 Side Matt Laminate 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1401",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1423",
+            "Name": "A4",
+            "Description": "350gsm Board Print 1 Side Matt Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "96",
+                "Name": "350gsm Board Print 1 Side Matt Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1423",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1444",
+            "Name": "A4",
+            "Description": "350gsm EcoStar 100% Recycled Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "97",
+                "Name": "350gsm EcoStar 100% Recycled Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1444",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1460",
+            "Name": "A4",
+            "Description": "350gsm EcoStar 100% Recycled Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "98",
+                "Name": "350gsm EcoStar 100% Recycled Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1460",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1476",
+            "Name": "A4",
+            "Description": "400gsm Board Print 1 Side Matt Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "99",
+                "Name": "400gsm Board Print 1 Side Matt Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1476",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1492",
+            "Name": "A4",
+            "Description": "400gsm Board Print 2 Side Matt Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "100",
+                "Name": "400gsm Board Print 2 Side Matt Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1492",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1540",
+            "Name": "A4",
+            "Description": "400gsm Board Print 1 Side Matt Laminate 2 Side + Spot UV 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "103",
+                "Name": "400gsm Board Print 1 Side Matt Laminate 2 Side + Spot UV 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1540",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1556",
+            "Name": "A4",
+            "Description": "400gsm Board Print 2 Side Matt Laminate 2 Side + Spot UV 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "104",
+                "Name": "400gsm Board Print 2 Side Matt Laminate 2 Side + Spot UV 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1556",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1767",
+            "Name": "A4",
+            "Description": "Tent Calendar Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "126",
+                "Name": "Tent Calendar Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1767",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1772",
+            "Name": "A4",
+            "Description": "Magnet 350gsm Print 1 Side Gloss Laminate 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "128",
+                "Name": "Magnet 350gsm Print 1 Side Gloss Laminate 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1772",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1790",
+            "Name": "A4",
+            "Description": "150gsm Matt Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "130",
+                "Name": "150gsm Matt Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1790",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1800",
+            "Name": "A4",
+            "Description": "150gsm Matt Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "132",
+                "Name": "150gsm Matt Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1800",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1805",
+            "Name": "A4",
+            "Description": "250gsm Matt Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "133",
+                "Name": "250gsm Matt Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1805",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1810",
+            "Name": "A4",
+            "Description": "250gsm Matt Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "134",
+                "Name": "250gsm Matt Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1810",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1815",
+            "Name": "A4",
+            "Description": "350gsm Matt Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "135",
+                "Name": "350gsm Matt Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1815",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1820",
+            "Name": "A4",
+            "Description": "350gsm Matt Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "136",
+                "Name": "350gsm Matt Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1820",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2049",
+            "Name": "A4",
+            "Description": "350gsm Board Print 2 Side Gloss Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "195",
+                "Name": "350gsm Board Print 2 Side Gloss Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2049",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2065",
+            "Name": "A4",
+            "Description": "350gsm Board Print 1 Side Gloss Laminate 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "196",
+                "Name": "350gsm Board Print 1 Side Gloss Laminate 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2065",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2138",
+            "Name": "A4",
+            "Description": "_POS 2mm Screen Board Strut Cards A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "208",
+                "Name": "_POS 2mm Screen Board Strut Cards"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2138",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2155",
+            "Name": "A4",
+            "Description": "350gsm Ultra Gloss Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "212",
+                "Name": "350gsm Ultra Gloss Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2155",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2164",
+            "Name": "A4",
+            "Description": "350gsm Ultra Gloss Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "213",
+                "Name": "350gsm Ultra Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2164",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2173",
+            "Name": "A4",
+            "Description": "150gsm Ultra Gloss Print 1 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "214",
+                "Name": "150gsm Ultra Gloss Print 1 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2173",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2178",
+            "Name": "A4",
+            "Description": "150gsm Ultra Gloss Print 2 Side A4",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "215",
+                "Name": "150gsm Ultra Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2178",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1844",
+            "Name": "A4 100gsm Bond 1 side",
+            "Description": "Medical (Doctors / Dentists / Etc) A4 100gsm Bond 1 side",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "144",
+                "Name": "Medical (Doctors / Dentists / Etc)"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1844",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1841",
+            "Name": "A4 100gsm Bond 2 sided Fold to DL",
+            "Description": "Fast Food Outlets A4 100gsm Bond 2 sided Fold to DL",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "143",
+                "Name": "Fast Food Outlets"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1841",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1840",
+            "Name": "A4 115gsm Gloss 2 sided Fold to DL",
+            "Description": "Fast Food Outlets A4 115gsm Gloss 2 sided Fold to DL",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "143",
+                "Name": "Fast Food Outlets"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1840",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1853",
+            "Name": "A4 115gsm Gloss 2 sided Fold to DL",
+            "Description": "Restaurants / Bars / Cafes A4 115gsm Gloss 2 sided Fold to DL",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "146",
+                "Name": "Restaurants / Bars / Cafes"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1853",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1849",
+            "Name": "A4 150gsm Gloss 2 sided Folded to DL",
+            "Description": "Vets A4 150gsm Gloss 2 sided Folded to DL",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "145",
+                "Name": "Vets"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1849",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1883",
+            "Name": "A4 Fold in Half",
+            "Description": "150gsm Gloss Print 2 Side A4 Fold in Half",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "35",
+                "Name": "150gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1883",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1831",
+            "Name": "A4 Folded to DL",
+            "Description": "150gsm Gloss Print 2 Side A4 Folded to DL",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "35",
+                "Name": "150gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1831",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1828",
+            "Name": "A4 Invoice 100gsm Laser - Perforated",
+            "Description": "Kwik Kopy Stationery A4 Invoice 100gsm Laser - Perforated",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "129",
+                "Name": "Kwik Kopy Stationery"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1828",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2023",
+            "Name": "A4 Print 1 Side on 170gsm Gloss",
+            "Description": ". Promo 1 A4 Print 1 Side on 170gsm Gloss",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "167",
+                "Name": ". Promo 1"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2023",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2024",
+            "Name": "A4 Print 2 Sides on 170gsm Gloss",
+            "Description": ". Promo 1 A4 Print 2 Sides on 170gsm Gloss",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "167",
+                "Name": ". Promo 1"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/2024",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1884",
+            "Name": "A4 Roll Fold to DL",
+            "Description": "150gsm Gloss Print 2 Side A4 Roll Fold to DL",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "35",
+                "Name": "150gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1884",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "1885",
+            "Name": "A4 Z Fold to DL",
+            "Description": "150gsm Gloss Print 2 Side A4 Z Fold to DL",
+            "Code": null,
+            "ProductGroup": {
+                "Id": "35",
+                "Name": "150gsm Gloss Print 2 Side"
+            },
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/Products/1885",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/Products",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}
