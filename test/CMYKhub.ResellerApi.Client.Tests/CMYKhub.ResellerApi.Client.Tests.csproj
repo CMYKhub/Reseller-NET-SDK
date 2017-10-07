@@ -68,6 +68,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="PricingTests.cs" />
     <Compile Include="ProductsTests.cs" />
     <Compile Include="PaperTests.cs" />
     <Compile Include="FinishingTests.cs" />
@@ -111,6 +112,8 @@
     <EmbeddedResource Include="Resources\Products.json" />
     <EmbeddedResource Include="Resources\Product_268.json" />
     <EmbeddedResource Include="Resources\Products_A4.json" />
+    <EmbeddedResource Include="Resources\Pricing_Standard_1.json" />
+    <EmbeddedResource Include="Resources\Pricing_Standard_2.json" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

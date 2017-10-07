@@ -58,10 +58,15 @@
     <Compile Include="Extensions\LinkExtensions.cs" />
     <Compile Include="Manufacturing\Address.cs" />
     <Compile Include="Manufacturing\Country.cs" />
+    <Compile Include="Manufacturing\Currency.cs" />
     <Compile Include="Manufacturing\Finishing.cs" />
     <Compile Include="Manufacturing\FinishingAvailableSpec.cs" />
+    <Compile Include="Manufacturing\Money.cs" />
     <Compile Include="Manufacturing\Paper.cs" />
     <Compile Include="Manufacturing\Customer.cs" />
+    <Compile Include="Manufacturing\ProductPrice.cs" />
+    <Compile Include="Manufacturing\PriceRequest.cs" />
+    <Compile Include="Manufacturing\PrintWizardFinishing.cs" />
     <Compile Include="Manufacturing\Products.cs" />
     <Compile Include="Manufacturing\Papers.cs" />
     <Compile Include="Manufacturing\Finishings.cs" />
@@ -72,6 +77,8 @@
     <Compile Include="Manufacturing\Orders.cs" />
     <Compile Include="Manufacturing\Product.cs" />
     <Compile Include="Manufacturing\ProductGroup.cs" />
+    <Compile Include="Manufacturing\Size.cs" />
+    <Compile Include="Manufacturing\StandardPriceRequest.cs" />
     <Compile Include="Manufacturing\State.cs" />
     <Compile Include="Prepress\ArtPackageResource.cs" />
     <Compile Include="Prepress\FileUploadResource.cs" />

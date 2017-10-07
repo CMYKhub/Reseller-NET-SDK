@@ -48,6 +48,26 @@ namespace CMYKhub.ResellerApi.Client
                 return default(T);
         }
 
+        protected async Task<TResult> PostAsync<TRequest, TResult>(string uri, TRequest content, IEnumerable<MediaTypeFormatter> formatters = null)
+        {
+            var client = GetClient();
+            var response = await client.PostAsJsonAsync(uri, content);
+            if (response.IsSuccessStatusCode)
+                if (formatters == null)
+                    return await response.Content.ReadAsAsync<TResult>();
+                else
+                    return await response.Content.ReadAsAsync<TResult>(formatters);
+            else
+                return default(TResult);
+        }
+
+        protected async Task<bool> PostAsync<TRequest>(string uri, TRequest content)
+        {
+            var client = GetClient();
+            var response = await client.PostAsJsonAsync(uri, content);
+            return response.IsSuccessStatusCode;
+        }
+
         protected async Task<Discovery> DiscoverAsync()
         {
             return _discovery ?? (_discovery = await GetAsync<Discovery>(_baseUri));
