@@ -2,7 +2,9 @@
 {
     public class Finishing : ApiResource
     {
-        public string FinishingId { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
+        public string Description { get; set; }
+        public FinishingType Type { get; set; }
     }
 }
