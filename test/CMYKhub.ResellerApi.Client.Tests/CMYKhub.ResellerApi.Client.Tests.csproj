@@ -68,6 +68,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="BookletPriceComparer.cs" />
     <Compile Include="BookletPricingTests.cs" />
     <Compile Include="PricingTests.cs" />
     <Compile Include="ProductsTests.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="HublinkPrepressClientTests.cs" />
     <Compile Include="HublinkManufacturingClientTests.cs" />
     <Compile Include="CustomerTests.cs" />
+    <Compile Include="StandardPriceRequestComparer.cs" />
     <Compile Include="StandardPricingTests.cs" />
     <Compile Include="UploadTests.cs" />
     <Compile Include="OrderTests.cs" />
@@ -119,6 +121,10 @@
     <EmbeddedResource Include="Resources\Pricing_Booklet_CustomCover.json" />
     <EmbeddedResource Include="Resources\Pricing_Booklet_ProductCover.json" />
     <EmbeddedResource Include="Resources\Pricing_Booklet_SelfCover.json" />
+    <EmbeddedResource Include="Resources\Order_from_quote.json" />
+    <EmbeddedResource Include="Resources\Order_from_product.json" />
+    <EmbeddedResource Include="Resources\Order_from_booklet.json" />
+    <EmbeddedResource Include="Resources\Order_from_token.json" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -62,6 +62,13 @@
     <Compile Include="Manufacturing\BookletProductRequest.cs" />
     <Compile Include="ClientSettings.cs" />
     <Compile Include="Manufacturing\Country.cs" />
+    <Compile Include="Manufacturing\CreatedOrderResource.cs" />
+    <Compile Include="Manufacturing\CreateOrderFromBookletRequest.cs" />
+    <Compile Include="Manufacturing\CreateOrderFromProductRequest.cs" />
+    <Compile Include="Manufacturing\CreateOrderFromQuoteRequest.cs" />
+    <Compile Include="Manufacturing\CreateOrderFromTokenRequest.cs" />
+    <Compile Include="Manufacturing\CreateOrderFromWizardRequest.cs" />
+    <Compile Include="Manufacturing\CreateOrderRequest.cs" />
     <Compile Include="Manufacturing\Currency.cs" />
     <Compile Include="Manufacturing\Finishing.cs" />
     <Compile Include="Manufacturing\FinishingAvailableBookletSpec.cs" />

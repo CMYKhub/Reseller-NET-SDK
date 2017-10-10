@@ -114,7 +114,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             var finishingUri = new UriBuilder(finishingsLink.Uri) { Query = query }.Uri.ToString();
             return (await GetAsync<Finishings>(finishingUri)).Items;
         }
-        
+
         public async Task<Product> GetProductAsync(string id)
         {
             var discovery = await DiscoverManufacturingAsync();
@@ -150,6 +150,13 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             var discovery = await DiscoverManufacturingAsync();
             var pricingLink = discovery.Links.FindLinkByRelation(ManufacturingPricingBooklet);
             return (await PostAsync<BookletProductRequest, ProductPrice>(pricingLink.Uri, request));
+        }
+
+        public async Task<CreatedOrderResource> CreateOrderAsync(CreateOrderRequest request)
+        {
+            var discovery = await DiscoverManufacturingAsync();
+            var pricingLink = discovery.Links.FindLinkByRelation(ManufacturingOrders);
+            return (await PostAsync<CreateOrderRequest, CreatedOrderResource>(pricingLink.Uri, request));
         }
     }
 }

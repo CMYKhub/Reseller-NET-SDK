@@ -1,0 +1,21 @@
+﻿{
+    "OrderId": "872417",
+    "ResellerId": "4926",
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/orders/872417",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/accounts/payments?orderId=872417",
+            "Relation": "http://schemas.cmykhub.com/api/orders/relations/payment",
+            "MediaType": "text/html"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/orders?orderId=872417",
+            "Relation": "http://schemas.cmykhub.com/api/prepress/relations/orders/artwork",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

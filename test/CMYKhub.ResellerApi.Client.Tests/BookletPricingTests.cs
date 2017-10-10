@@ -11,33 +11,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
     {
         protected override bool Compare(BookletProductRequest left, BookletProductRequest right)
         {
-            return left.DeliveryType == right.DeliveryType &&
-                   left.FinishedSize.Width == right.FinishedSize.Width &&
-                   left.FinishedSize.Height == right.FinishedSize.Height &&
-
-                   left.Body.PaperId == right.Body.PaperId &&
-                   left.Body.Pp == right.Body.Pp &&
-
-                   CompareCover(left.Cover, right.Cover) &&
-
-                   left.FreightProviderId == right.FreightProviderId &&
-                   left.Orientation == right.Orientation &&
-                   left.PrintType == right.PrintType &&
-                   left.Quantity == right.Quantity;
-        }
-
-        private bool CompareCover(BookletCoverSection left, BookletCoverSection right)
-        {
-            if (left == null && right == null) return true;
-            if (left == null) return false;
-            if (right == null) return false;
-
-
-            return left.PaperId == right.PaperId &&
-                   left.Pp == right.Pp &&
-                   left.ProductId == right.ProductId &&
-                   left.Finishing.Length == right.Finishing.Length &&
-                   left.Finishing.All(x => right.Finishing.Any(y => y.FinishingId == x.FinishingId && y.NoItems == x.NoItems));
+            return BookletPriceComparer.Compare(left,right);
         }
     }
 
