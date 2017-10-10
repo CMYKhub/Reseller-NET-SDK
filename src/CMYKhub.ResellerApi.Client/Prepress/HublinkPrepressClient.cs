@@ -138,5 +138,14 @@ namespace CMYKhub.ResellerApi.Client.Prepress
             }
         }
 
+
+        public async Task<OrderResource> GetOrderAsync(string id)
+        {
+            //return Task.FromResult<OrderResource>(null);
+            var discovery = await DiscoverPrepressAsync();
+            //var ordersLink = discovery.Links.FindLinkByRelation(ManufacturingOrders);
+            var orderUri = new UriBuilder(discovery.OrdersUrl) { Query = $"orderid={id}" }.Uri.ToString();
+            return await GetAsync<OrderResource>(orderUri);
+        }
     }
 }

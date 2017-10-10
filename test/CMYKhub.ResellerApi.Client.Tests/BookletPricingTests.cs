@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Net.Http;
 using CMYKhub.ResellerApi.Client.Manufacturing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -11,7 +12,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
     {
         protected override bool Compare(BookletProductRequest left, BookletProductRequest right)
         {
-            return BookletPriceComparer.Compare(left,right);
+            return BookletPriceComparer.Compare(left, right);
         }
     }
 
@@ -66,6 +67,42 @@ namespace CMYKhub.ResellerApi.Client.Tests
         public void Price_should_match_value_in_response()
         {
             Assert.AreEqual(1966.56m, result.Price.ExTax);
+        }
+
+        [TestMethod]
+        public void Tax_should_match_value_in_response()
+        {
+            Assert.AreEqual(196.66m, result.Price.Tax);
+        }
+
+        [TestMethod]
+        public void Total_should_match_value_in_response()
+        {
+            Assert.AreEqual(2163.22m, result.Price.IncTax);
+        }
+
+        [TestMethod]
+        public void CurrencyCode_should_match_value_in_response()
+        {
+            Assert.AreEqual("AUD", result.Price.Currency.Code);
+        }
+
+        [TestMethod]
+        public void Expiry_should_match_value_in_response()
+        {
+            Assert.AreEqual(new DateTime(2017, 01, 01, 0, 0, 0, DateTimeKind.Utc), result.Expires);
+        }
+
+        [TestMethod]
+        public void ResellerId_should_match_value_in_response()
+        {
+            Assert.AreEqual("4926", result.ResellerId);
+        }
+
+        [TestMethod]
+        public void Token_should_match_value_in_response()
+        {
+            Assert.AreEqual("eyIkdHlwZSI6IkNNWiLkNvcmUuUdmljZXMiLCJXaXphcmQiOnsiJrtg", result.Token);
         }
     }
 

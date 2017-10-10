@@ -1,0 +1,63 @@
+﻿{
+    "OrderId": "872411",
+    "PrepressDepartmentId": "a242f8ae-9d7d-4266-a352-e15df0b9bd62",
+    "Status": {
+        "Id": 1,
+        "Name": "PendingPreflight"
+    },
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/pp/Orders/872411",
+            "Relation": "self",
+            "MediaType": "application/json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Orders/872411/Artwork",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Orders/Artwork",
+            "MediaType": "application/json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Uploads/872411/Artwork",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Uploads",
+            "MediaType": "application/json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Orders/872411/Previews",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Orders/Preview",
+            "MediaType": "application/json"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/Orders/872411/Thumbnails",
+            "Relation": "http://schemas.cmykhub.com/api/Relations/Orders/Thumbnail",
+            "MediaType": "application/json"
+        }
+    ],
+    "Files": [
+        {
+            "Id": null,
+            "PackageId": null,
+            "Filename": "User-Manual.pdf",
+            "MD5Hash": null,
+            "ContentType": "application/pdf",
+            "UploadedBy": "Joe Bloggs",
+            "UploadedById": null,
+            "Status": {
+                "Id": 0,
+                "Name": null
+            },
+            "UploadDate": "2017-02-10T04:42:33.288Z",
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/api/manufacturing/prepress/Uploads/872411/Artwork/0e4067f1-14f2-45be-9bfa-845a9d025a7b/ST-Series-User-Manual.pdf",
+                    "Relation": "http://schemas.cmykhub.com/api/Relations/Packages/Files/Content",
+                    "MediaType": "application/octet-stream"
+                },
+                {
+                    "Uri": "http://tempuri.org/Packages/c3cd33d2-3464-427d-bc74-794946ec1f45/Files/ST-Series-User-Manual.pdf",
+                    "Relation": "http://schemas.cmykhub.com/api/Relations/Packages/Files/Archive/Content",
+                    "MediaType": "application/octet-stream"
+                }
+            ]
+        }
+    ]
+}

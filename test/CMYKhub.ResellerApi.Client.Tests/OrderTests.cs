@@ -10,7 +10,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
     [TestClass]
     public class When_get_order : HublinkManufacturingClientTests
     {
-        private const string orderId = "139424";
+        private const string orderId = "872410";
         private Order result;
 
         [TestInitialize]
@@ -18,8 +18,8 @@ namespace CMYKhub.ResellerApi.Client.Tests
         {
             base.Arrange();
 
-            mockHttp.When(HttpMethod.Get, $"{baseUri}/man/orders?orderid=139424")
-                .Respond("application/json", "Resources.Order_139424.json".ReadStringResource());
+            mockHttp.When(HttpMethod.Get, $"{baseUri}/man/orders?orderid={orderId}")
+                .Respond("application/json", $"Resources.Order_{orderId}.json".ReadStringResource());
 
             Act();
         }
@@ -33,6 +33,84 @@ namespace CMYKhub.ResellerApi.Client.Tests
         public void Should_return_order()
         {
             Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void OrderId_should_match_value_in_response()
+        {
+            Assert.AreEqual(orderId, result.OrderId);
+        }
+
+        [TestMethod]
+        public void DateOrdered_should_match_value_in_response()
+        {
+            Assert.AreEqual(DateTimeOffset.Parse("2017-02-09T08:05:51.764Z", null, System.Globalization.DateTimeStyles.AssumeUniversal).DateTime, result.DateOrdered);
+        }
+
+        [TestMethod]
+        public void DateEstimatedDispatch_should_match_value_in_response()
+        {
+            Assert.AreEqual(DateTimeOffset.Parse("2017-10-16T04:00:00Z", null, System.Globalization.DateTimeStyles.AssumeUniversal).DateTime, result.DateEstimatedDispatch);
+        }
+
+        [TestMethod]
+        public void Status_Id_should_match_value_in_response()
+        {
+            Assert.AreEqual("12", result.Status.Id);
+        }
+
+        [TestMethod]
+        public void Status_Name_should_match_value_in_response()
+        {
+            Assert.AreEqual("Planning", result.Status.Name);
+        }
+
+        [TestMethod]
+        public void OrderNumber_should_match_value_in_response()
+        {
+            Assert.AreEqual(orderId, result.OrderNumber);
+        }
+
+        [TestMethod]
+        public void Quantity_should_match_value_in_response()
+        {
+            Assert.AreEqual(1000, result.Quantity);
+        }
+
+        [TestMethod]
+        public void Description_should_match_value_in_response()
+        {
+            Assert.AreEqual("2 kinds of 170gsm Gloss Print 1 Side A4 Fold - Roll fold A4 to DL(500 items)", result.Description);
+        }
+
+        [TestMethod]
+        public void ResellerId_should_match_value_in_response()
+        {
+            Assert.AreEqual("4926", result.ResellerId);
+        }
+
+        [TestMethod]
+        public void Price_ExTax_should_match_value_in_response()
+        {
+            Assert.AreEqual(338.5m, result.Price.ExTax);
+        }
+
+        [TestMethod]
+        public void Price_Tax_should_match_value_in_response()
+        {
+            Assert.AreEqual(33.85m, result.Price.Tax);
+        }
+
+        [TestMethod]
+        public void Price_IncTax_should_match_value_in_response()
+        {
+            Assert.AreEqual(372.35m, result.Price.IncTax);
+        }
+
+        [TestMethod]
+        public void Price_Currency_Code_should_match_value_in_response()
+        {
+            Assert.AreEqual("AUD", result.Price.Currency.Code);
         }
     }
 
@@ -95,6 +173,18 @@ namespace CMYKhub.ResellerApi.Client.Tests
         {
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void OrderId_should_match_value_in_response()
+        {
+            Assert.AreEqual("872416", result.OrderId);
+        }
+
+        [TestMethod]
+        public void ResellerId_should_match_value_in_response()
+        {
+            Assert.AreEqual("4926", result.ResellerId);
+        }
     }
 
     [TestClass]
@@ -142,6 +232,18 @@ namespace CMYKhub.ResellerApi.Client.Tests
         public void Should_return_order_created()
         {
             Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void OrderId_should_match_value_in_response()
+        {
+            Assert.AreEqual("872418", result.OrderId);
+        }
+
+        [TestMethod]
+        public void ResellerId_should_match_value_in_response()
+        {
+            Assert.AreEqual("4926", result.ResellerId);
         }
     }
 
@@ -203,6 +305,18 @@ namespace CMYKhub.ResellerApi.Client.Tests
         {
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void OrderId_should_match_value_in_response()
+        {
+            Assert.AreEqual("872417", result.OrderId);
+        }
+
+        [TestMethod]
+        public void ResellerId_should_match_value_in_response()
+        {
+            Assert.AreEqual("4926", result.ResellerId);
+        }
     }
 
     [TestClass]
@@ -244,6 +358,18 @@ namespace CMYKhub.ResellerApi.Client.Tests
         public void Should_return_order_created()
         {
             Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void OrderId_should_match_value_in_response()
+        {
+            Assert.AreEqual("872419", result.OrderId);
+        }
+
+        [TestMethod]
+        public void ResellerId_should_match_value_in_response()
+        {
+            Assert.AreEqual("4926", result.ResellerId);
         }
     }
 }

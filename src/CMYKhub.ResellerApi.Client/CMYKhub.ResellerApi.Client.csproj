@@ -75,6 +75,7 @@
     <Compile Include="Manufacturing\FinishingAvailableSpec.cs" />
     <Compile Include="Manufacturing\FinishingType.cs" />
     <Compile Include="Manufacturing\Money.cs" />
+    <Compile Include="Manufacturing\OrderStatus.cs" />
     <Compile Include="Manufacturing\Orientations.cs" />
     <Compile Include="Manufacturing\Paper.cs" />
     <Compile Include="Manufacturing\Customer.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Prepress\FileUploadResource.cs" />
     <Compile Include="Prepress\HublinkPrepressClient.cs" />
     <Compile Include="Prepress\OrderResource.cs" />
+    <Compile Include="Prepress\OrderStatusResource.cs" />
     <Compile Include="Prepress\PrepressApiDiscovery.cs" />
     <Compile Include="Prepress\PrepressJsonMediaTypeFormatter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

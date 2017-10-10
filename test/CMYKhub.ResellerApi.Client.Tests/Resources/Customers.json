@@ -356,7 +356,7 @@
                     "CallingCode": null
                 },
                 "Address1": "test, t",
-                "Address2": "",
+                "Address2": "Level 1",
                 "City": "test",
                 "Postcode": "12345"
             },

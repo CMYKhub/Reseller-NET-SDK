@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using CMYKhub.ResellerApi.Client.Manufacturing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -34,6 +35,36 @@ namespace CMYKhub.ResellerApi.Client.Tests
         {
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void Id_should_match_value_in_response()
+        {
+            Assert.AreEqual("85", result.Id);
+        }
+
+        [TestMethod]
+        public void Name_should_match_value_in_response()
+        {
+            Assert.AreEqual("Double gate fold 8pp A4", result.Name);
+        }
+
+        [TestMethod]
+        public void Description_should_match_value_in_response()
+        {
+            Assert.AreEqual("", result.Description);
+        }
+
+        [TestMethod]
+        public void Type_Id_should_match_value_in_response()
+        {
+            Assert.AreEqual("0", result.Type.Id);
+        }
+
+        [TestMethod]
+        public void Type_Name_should_match_value_in_response()
+        {
+            Assert.AreEqual("SingleItemSheet", result.Type.Name);
+        }
     }
 
 
@@ -63,7 +94,26 @@ namespace CMYKhub.ResellerApi.Client.Tests
         {
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void Count_of_results_should_match_value_in_response()
+        {
+            Assert.AreEqual(128, result.Count());
+        }
+
+        [TestMethod]
+        public void Id_from_114th_index_should_match_value_in_response()
+        {
+            Assert.AreEqual("64", result.ElementAt(114).Id);
+        }
+
+        [TestMethod]
+        public void Name_from_114th_index_should_match_value_in_response()
+        {
+            Assert.AreEqual("Trimming - 5 extra items on sheet (same size total quantity)", result.ElementAt(114).Name);
+        }
     }
+
     [TestClass]
     public class When_get_finishings_by_name : HublinkManufacturingClientTests
     {

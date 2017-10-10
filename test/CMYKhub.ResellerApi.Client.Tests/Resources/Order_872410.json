@@ -1,0 +1,54 @@
+﻿{
+    "OrderId": "872410",
+    "DateOrdered": "2017-02-09T08:05:51.764Z",
+    "DateEstimatedDispatch": "2017-10-16T04:00:00Z",
+    "DateCompleted": null,
+    "StatusName": "Planning",
+    "OrderNumber": "872410",
+    "CustomerOrderRef": "",
+    "Quantity": 1000,
+    "Description": "2 kinds of 170gsm Gloss Print 1 Side A4 Fold - Roll fold A4 to DL(500 items)",
+    "PaperTypeDescription": "170gsm Gloss",
+    "ResellerId": "4926",
+    "DeliveryType": {
+        "DeliveryTypeID": 0,
+        "Name": "ToCentre"
+    },
+    "DeliveryNote": null,
+    "Price": {
+        "ExTax": 338.5,
+        "Tax": 33.85,
+        "IncTax": 372.35,
+        "Currency": {
+            "Code": "AUD"
+        }
+    },
+    "QuoteId": "1834182",
+    "ResellerSamples": false,
+    "Status": {
+        "Id": "12",
+        "Name": "Planning"
+    },
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/orders/872410",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/accounts/payments?orderId=872410",
+            "Relation": "http://schemas.cmykhub.com/api/orders/relations/payment",
+            "MediaType": "text/html"
+        },
+        {
+            "Uri": "http://tempuri.org/pp/orders?orderId=872410",
+            "Relation": "http://schemas.cmykhub.com/api/prepress/relations/orders/artwork",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/orders/872410/delivery",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/order/delivery",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

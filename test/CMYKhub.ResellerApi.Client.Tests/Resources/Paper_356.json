@@ -1,9 +1,9 @@
 ﻿{
     "Id": "356",
-    "Description": "EcoStar Uncoated 100% Recycled  ",
+    "Description": "EcoStar Uncoated 100% Recycled",
     "Family": "EcoStar Uncoated 100% Recycled",
-    "Colour": "",
-    "Texture": "",
+    "Colour": "White",
+    "Texture": "Uncoated",
     "Weight": 100,
     "Links": [
         {

@@ -1,11 +1,11 @@
 ﻿{
     "CustomerId": "4306",
-    "Name": " Lorum Ipsum ",
-    "ContactName": "",
+    "Name": "Test Customer 4306",
+    "ContactName": "Joe Bloggs",
     "Address": {
         "State": {
-            "Name": "Unknown",
-            "Abbreviation": "UNK",
+            "Name": "Victoria",
+            "Abbreviation": "VIC",
             "CountryCode": "AU"
         },
         "Country": {
@@ -15,12 +15,15 @@
             "Iso3Digit": null,
             "CallingCode": null
         },
-        "Address1": "",
-        "Address2": "",
-        "City": "",
-        "Postcode": "0"
+        "Address1": "test, t",
+        "Address2": "Level 1",
+        "City": "test",
+        "Postcode": "12345"
     },
-    "ContactMethods": {},
+    "ContactMethods": {
+        "Email": "test321012@cmykhub.com",
+        "Phone": "0435342212"
+    },
     "Links": [
         {
             "Uri": "http://tempuri.org/man/Customers/1511837c-9d1f-406e-a9a3-e18f0c64de0a",

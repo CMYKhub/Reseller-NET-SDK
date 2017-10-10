@@ -23,7 +23,9 @@ namespace CMYKhub.ResellerApi.Client.Tests
             FinishedSize = new Size { Width = 290, Height = 400 },
             Kinds = 2,
             ProductId = "268",
-            Quantity = 1000
+            Quantity = 1000,
+            FreightProviderId = "55",
+            DeliveryType = 1
         };
         private ProductPrice result;
 

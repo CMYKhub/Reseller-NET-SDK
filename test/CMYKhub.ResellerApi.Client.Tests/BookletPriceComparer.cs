@@ -11,6 +11,8 @@ namespace CMYKhub.ResellerApi.Client.Tests
                    left.FinishedSize.Width == right.FinishedSize.Width &&
                    left.FinishedSize.Height == right.FinishedSize.Height &&
 
+                   left.BindingId == right.BindingId &&
+
                    left.Body.PaperId == right.Body.PaperId &&
                    left.Body.Pp == right.Body.Pp &&
 

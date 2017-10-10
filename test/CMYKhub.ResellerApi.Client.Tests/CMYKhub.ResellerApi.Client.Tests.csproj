@@ -70,6 +70,8 @@
   <ItemGroup>
     <Compile Include="BookletPriceComparer.cs" />
     <Compile Include="BookletPricingTests.cs" />
+    <Compile Include="HttpClientFactoryTests.cs" />
+    <Compile Include="PrepressOrderTests.cs" />
     <Compile Include="PricingTests.cs" />
     <Compile Include="ProductsTests.cs" />
     <Compile Include="PaperTests.cs" />
@@ -125,6 +127,8 @@
     <EmbeddedResource Include="Resources\Order_from_product.json" />
     <EmbeddedResource Include="Resources\Order_from_booklet.json" />
     <EmbeddedResource Include="Resources\Order_from_token.json" />
+    <EmbeddedResource Include="Resources\Order_872410.json" />
+    <EmbeddedResource Include="Resources\Prepress_Order_872411.json" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
