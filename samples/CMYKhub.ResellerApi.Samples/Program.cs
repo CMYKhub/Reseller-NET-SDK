@@ -53,6 +53,22 @@ namespace CMYKhub.ResellerApi.Samples
                 {
                     GetBookletPrice();
                 }
+                else if (args[0] == "order-create-product" && args.Count() >= 2)
+                {
+                    CreateOrderFromProduct(args[1]);
+                }
+                else if (args[0] == "order-create-booklet")
+                {
+                    CreateOrderFromBooklet();
+                }
+                else if (args[0] == "order-create-token-product" && args.Count() >= 2)
+                {
+                    CreateOrderFromProductToken(args[1]);
+                }
+                else if (args[0] == "order-create-quote" && args.Count() >= 2)
+                {
+                    CreateOrderFromQuote(args[1]);
+                }
                 else
                 {
                     Console.WriteLine("Invalid arguments");
@@ -92,7 +108,7 @@ namespace CMYKhub.ResellerApi.Samples
             Console.WriteLine($"Date Ordered: {order.DateOrdered}");
             Console.WriteLine($"Description: {order.Description}");
             Console.WriteLine($"Quantity: {order.Quantity}");
-            Console.WriteLine($"Status: {order.StatusName}");
+            Console.WriteLine($"Status: {order.Status.Name}");
         }
 
         private static void UploadOrder(string number, params string[] fileNames)
@@ -103,8 +119,8 @@ namespace CMYKhub.ResellerApi.Samples
                 if (!File.Exists(file)) throw new Exception($"File not found: {file}");
 
             var order = manufacturingClient.GetOrderAsync(number).Result;
-            var ppTask = prepressClient.UploadArtworkAsync(number, order.HubId, fileNames);
-            ppTask.Wait();
+            //var ppTask = prepressClient.UploadArtworkAsync(number, order.HubId, fileNames);
+            //ppTask.Wait();
             Console.WriteLine("Files Uploaded");
         }
 
@@ -187,6 +203,73 @@ namespace CMYKhub.ResellerApi.Samples
             }
         }
 
+        private static void CreateOrderFromProduct(string productId)
+        {
+            var manufacturingClient = GetManufacturingClient();
+            var request = new CreateOrderFromProductRequest
+            {
+                Product = new StandardPriceRequest { ProductId = productId, Quantity = 1000, Kinds = 1 },
+                Notes = "Generated from the Sample Code project",
+                Reference = "SAMPLE CODE"
+            };
+            var orderSummary = manufacturingClient.CreateOrderAsync(request).Result;
+
+            Console.WriteLine($"Order Number: {orderSummary.OrderId}");
+        }
+
+        private static void CreateOrderFromBooklet()
+        {
+            var manufacturingClient = GetManufacturingClient();
+            var request = new CreateOrderFromBookletRequest
+            {
+                Booklet = new BookletProductRequest
+                {
+                    BindingId = "1",
+                    Quantity = 1000,
+                    Body = new BookletBodySection
+                    {
+                        PaperId = "151",
+                        Pp = 32
+                    },
+                    FinishedSize = new Size { Width = 210, Height = 297 },
+                    Orientation = 0,
+                    PrintType = 1,
+                },
+                Notes = "Generated from the Sample Code project",
+                Reference = "SAMPLE CODE"
+            };
+            var orderSummary = manufacturingClient.CreateOrderAsync(request).Result;
+
+            Console.WriteLine($"Order Number: {orderSummary.OrderId}");
+        }
+
+        private static void CreateOrderFromProductToken(string productId)
+        {
+            var manufacturingClient = GetManufacturingClient();
+            var price = manufacturingClient.CreatePriceAsync(new StandardPriceRequest { ProductId = productId, Quantity = 1000, Kinds = 1 }).Result;
+            var request = new CreateOrderFromTokenRequest
+            {
+                Token = price.Token,
+                Notes = "Generated from the Sample Code project",
+                Reference = "SAMPLE CODE"
+            };
+            var orderSummary = manufacturingClient.CreateOrderAsync(request).Result;
+
+            Console.WriteLine($"Order Number: {orderSummary.OrderId}");
+        }
+
+        private static void CreateOrderFromQuote(string quoteId)
+        {
+            var manufacturingClient = GetManufacturingClient();
+            var request = new CreateOrderFromQuoteRequest
+            {
+                QuoteId = quoteId
+            };
+            var orderSummary = manufacturingClient.CreateOrderAsync(request).Result;
+
+            Console.WriteLine($"Order Number: {orderSummary.OrderId}");
+        }
+
         private static void PrintHelp()
         {
             Console.WriteLine("Options");
@@ -197,7 +280,11 @@ namespace CMYKhub.ResellerApi.Samples
             Console.WriteLine("  finishings-list [name] : this will return finishings optionally filtered by name");
             Console.WriteLine("  products-list [name] : this will return products optionally filtered by name");
             Console.WriteLine("  price-product [productId] : this will return a price for the product with the given id");
-
+            Console.WriteLine("  price-booklet : this will return a price for a sample booklet");
+            Console.WriteLine("  order-create-product [productId] : this will create an order for the product with the given id");
+            Console.WriteLine("  order-create-booklet : this will create an order for a sample booklet");
+            Console.WriteLine("  order-create-token-product [productId] : this will get a price and create an order to honour the provided price");
+            Console.WriteLine("  order-create-quote [quoteId] : this will create an order for an existing quote");
 
             Console.WriteLine("");
         }

@@ -42,6 +42,12 @@ namespace CMYKhub.ResellerApi.Client.Tests
         }
 
         [TestMethod]
+        public void HubId_should_match_value_in_response()
+        {
+            Assert.AreEqual("1", result.HubId);
+        }
+
+        [TestMethod]
         public void DateOrdered_should_match_value_in_response()
         {
             Assert.AreEqual(DateTimeOffset.Parse("2017-02-09T08:05:51.764Z", null, System.Globalization.DateTimeStyles.AssumeUniversal).DateTime, result.DateOrdered);
