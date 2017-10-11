@@ -119,8 +119,8 @@ namespace CMYKhub.ResellerApi.Samples
                 if (!File.Exists(file)) throw new Exception($"File not found: {file}");
 
             var order = manufacturingClient.GetOrderAsync(number).Result;
-            //var ppTask = prepressClient.UploadArtworkAsync(number, order.HubId, fileNames);
-            //ppTask.Wait();
+            var ppTask = prepressClient.UploadArtworkAsync(number, order.HubId, fileNames);
+            ppTask.Wait();
             Console.WriteLine("Files Uploaded");
         }
 
