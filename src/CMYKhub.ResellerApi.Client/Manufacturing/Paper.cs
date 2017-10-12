@@ -1,5 +1,8 @@
 ﻿namespace CMYKhub.ResellerApi.Client.Manufacturing
 {
+    /// <summary>
+    /// Represents paper that can be printed on
+    /// </summary>
     public class Paper : ApiResource
     {
         public string Id { get; set; }

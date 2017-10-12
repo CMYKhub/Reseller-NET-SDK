@@ -6,7 +6,7 @@ using CMYKhub.ResellerApi.Client.Extensions;
 
 namespace CMYKhub.ResellerApi.Client.Manufacturing
 {
-    public class HublinkManufacturingClient : HublinkClient
+    public class HublinkManufacturingClient : HublinkClient, IHublinkManufacturingClient
     {
         private const string OrderingRelation = "http://schemas.cmykhub.com/api/orders";
         private const string ManufacturingOrders = "http://schemas.cmykhub.com/api/hublink/relations/order";
@@ -28,114 +28,89 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             return await GetAsync<Discovery>(manufacturingLink.Uri);
         }
 
-        public async Task<Order> GetOrderAsync(string id)
+        private async Task<T> GetByRelationAsync<T>(string relation, string query = null)
         {
             var discovery = await DiscoverManufacturingAsync();
-            var ordersLink = discovery.Links.FindLinkByRelation(ManufacturingOrders);
-            var orderUri = new UriBuilder(ordersLink.Uri) { Query = $"orderid={id}" }.Uri.ToString();
-            return await GetAsync<Order>(orderUri);
+            var link = discovery.Links.FindLinkByRelation(relation);
+            var builder = new UriBuilder(link.Uri);
+            if (!string.IsNullOrEmpty(query))
+                builder.Query = query;
+            var uri = builder.Uri.ToString();
+            return await GetAsync<T>(uri);
+        }
+
+        public Task<Order> GetOrderAsync(string id)
+        {
+            return GetByRelationAsync<Order>(ManufacturingOrders, $"orderid={id}");
         }
 
         public async Task<IEnumerable<Order>> GetOrdersAsync()
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var ordersLink = discovery.Links.FindLinkByRelation(ManufacturingOrders);
-            return (await GetAsync<Orders>(ordersLink.Uri)).Items;
+            return (await GetByRelationAsync<Orders>(ManufacturingOrders)).Items;
         }
 
-        public async Task<Customer> GetCustomerAsync(string id)
+        public Task<Customer> GetCustomerAsync(string id)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var customersLink = discovery.Links.FindLinkByRelation(ManufacturingCustomers);
-            var customerUri = new UriBuilder(customersLink.Uri) { Query = $"customerid={id}" }.Uri.ToString();
-            return await GetAsync<Customer>(customerUri);
+            return GetByRelationAsync<Customer>(ManufacturingCustomers, $"customerid={id}");
         }
 
         public async Task<IEnumerable<Customer>> GetCustomersAsync()
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var customersLink = discovery.Links.FindLinkByRelation(ManufacturingCustomers);
-            return (await GetAsync<Customers>(customersLink.Uri)).Items;
+            return (await GetByRelationAsync<Customers>(ManufacturingCustomers)).Items;
         }
 
-        public async Task<Paper> GetPaperAsync(string id)
+        public Task<Paper> GetPaperAsync(string id)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var papersLink = discovery.Links.FindLinkByRelation(ManufacturingPapers);
-            var paperUri = new UriBuilder(papersLink.Uri) { Query = $"paperid={id}" }.Uri.ToString();
-            return await GetAsync<Paper>(paperUri);
+            return GetByRelationAsync<Paper>(ManufacturingPapers, $"paperid={id}");
         }
 
         public async Task<IEnumerable<Paper>> GetPapersAsync()
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var papersLink = discovery.Links.FindLinkByRelation(ManufacturingPapers);
-            return (await GetAsync<Papers>(papersLink.Uri)).Items;
+            return (await GetByRelationAsync<Papers>(ManufacturingPapers)).Items;
         }
 
         public async Task<IEnumerable<Paper>> GetPapersByNameAsync(string name)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var papersLink = discovery.Links.FindLinkByRelation(ManufacturingPapers);
-            var paperUri = new UriBuilder(papersLink.Uri) { Query = $"name={name}" }.Uri.ToString();
-            return (await GetAsync<Papers>(paperUri)).Items;
+            return (await GetByRelationAsync<Papers>(ManufacturingPapers, $"name={name}")).Items;
         }
 
-        public async Task<Finishing> GetFinishingAsync(string id)
+        public Task<Finishing> GetFinishingAsync(string id)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var finishingsLink = discovery.Links.FindLinkByRelation(ManufacturingFinishings);
-            var finishingUri = new UriBuilder(finishingsLink.Uri) { Query = $"finishingid={id}" }.Uri.ToString();
-            return await GetAsync<Finishing>(finishingUri);
+            return GetByRelationAsync<Finishing>(ManufacturingFinishings, $"finishingid={id}");
         }
 
         public async Task<IEnumerable<Finishing>> GetFinishingsAsync()
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var finishingsLink = discovery.Links.FindLinkByRelation(ManufacturingFinishings);
-            return (await GetAsync<Finishings>(finishingsLink.Uri)).Items;
+            return (await GetByRelationAsync<Finishings>(ManufacturingFinishings)).Items;
         }
 
         public async Task<IEnumerable<Finishing>> GetFinishingsByNameAsync(string name)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var finishingsLink = discovery.Links.FindLinkByRelation(ManufacturingFinishings);
-            var finishingUri = new UriBuilder(finishingsLink.Uri) { Query = $"name={name}" }.Uri.ToString();
-            return (await GetAsync<Finishings>(finishingUri)).Items;
+            return (await GetByRelationAsync<Finishings>(ManufacturingFinishings, $"name={name}")).Items;
         }
 
         public async Task<IEnumerable<Finishing>> GetFinishingsByAvailableAsync(FinishingAvailableSpec spec)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var finishingsLink = discovery.Links.FindLinkByRelation(ManufacturingFinishingsAvailable);
             var query = $"width={spec.Width}&height={spec.Height}&paperWeight={spec.PaperWeight}&printType={(int)spec.PrintType}";
             if (spec.Book != null)
                 query = $"{query}&book.pp={spec.Book.Pp}&book.orientation={(int)spec.Book.Orientation}";
-            var finishingUri = new UriBuilder(finishingsLink.Uri) { Query = query }.Uri.ToString();
-            return (await GetAsync<Finishings>(finishingUri)).Items;
+
+            return (await GetByRelationAsync<Finishings>(ManufacturingFinishingsAvailable, query)).Items;
         }
 
-        public async Task<Product> GetProductAsync(string id)
+        public Task<Product> GetProductAsync(string id)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var productsLink = discovery.Links.FindLinkByRelation(ManufacturingProducts);
-            var productUri = new UriBuilder(productsLink.Uri) { Query = $"productid={id}" }.Uri.ToString();
-            return await GetAsync<Product>(productUri);
+            return GetByRelationAsync<Product>(ManufacturingProducts, $"productid={id}");
         }
 
         public async Task<IEnumerable<Product>> GetProductsAsync()
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var productsLink = discovery.Links.FindLinkByRelation(ManufacturingProducts);
-            return (await GetAsync<Products>(productsLink.Uri)).Items;
+            return (await GetByRelationAsync<Products>(ManufacturingProducts)).Items;
         }
 
         public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
         {
-            var discovery = await DiscoverManufacturingAsync();
-            var productsLink = discovery.Links.FindLinkByRelation(ManufacturingProducts);
-            var productUri = new UriBuilder(productsLink.Uri) { Query = $"name={name}" }.Uri.ToString();
-            return (await GetAsync<Products>(productUri)).Items;
+            return (await GetByRelationAsync<Products>(ManufacturingProducts, $"name={name}")).Items;
         }
 
         public async Task<ProductPrice> CreatePriceAsync(StandardPriceRequest request)

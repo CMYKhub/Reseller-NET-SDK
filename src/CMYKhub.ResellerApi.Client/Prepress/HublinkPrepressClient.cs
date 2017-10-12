@@ -11,7 +11,7 @@ using CMYKhub.ResellerApi.Client.Extensions;
 
 namespace CMYKhub.ResellerApi.Client.Prepress
 {
-    public class HublinkPrepressClient : HublinkClient
+    public class HublinkPrepressClient : HublinkClient, IHublinkPrepressClient
     {
         private const string PrepressRelation = "http://schemas.cmykhub.com/api/prepress";
         const string MediaTypeJson = "application/json";
@@ -96,8 +96,7 @@ namespace CMYKhub.ResellerApi.Client.Prepress
 
                 var response = await client.PostAsJsonAsync(url, new { orderId, filename, fileLength, contentType });
                 if (!response.IsSuccessStatusCode) return default(FileUploadResource);
-
-
+                
                 // Get the URI of the created resource.
                 var result = await response.Content.ReadAsAsync<FileUploadResource>(new[] { new PrepressJsonMediaTypeFormatter() });
                 return result;
@@ -138,12 +137,9 @@ namespace CMYKhub.ResellerApi.Client.Prepress
             }
         }
 
-
         public async Task<OrderResource> GetOrderAsync(string id)
         {
-            //return Task.FromResult<OrderResource>(null);
             var discovery = await DiscoverPrepressAsync();
-            //var ordersLink = discovery.Links.FindLinkByRelation(ManufacturingOrders);
             var orderUri = new UriBuilder(discovery.OrdersUrl) { Query = $"orderid={id}" }.Uri.ToString();
             return await GetAsync<OrderResource>(orderUri);
         }

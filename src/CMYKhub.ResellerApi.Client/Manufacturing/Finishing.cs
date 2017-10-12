@@ -1,5 +1,8 @@
 ﻿namespace CMYKhub.ResellerApi.Client.Manufacturing
 {
+    /// <summary>
+    /// Represents finishing that can be applied to a printed product
+    /// </summary>
     public class Finishing : ApiResource
     {
         public string Id { get; set; }

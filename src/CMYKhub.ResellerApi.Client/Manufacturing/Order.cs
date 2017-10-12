@@ -2,6 +2,9 @@
 
 namespace CMYKhub.ResellerApi.Client.Manufacturing
 {
+    /// <summary>
+    /// Represents an order made with CMYKhub
+    /// </summary>
     public class Order : ApiResource
     {
         public string OrderId { get; set; }

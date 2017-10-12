@@ -2,6 +2,9 @@
 
 namespace CMYKhub.ResellerApi.Client.Manufacturing
 {
+    /// <summary>
+    /// Represents a customer of the reseller
+    /// </summary>
     public class Customer : ApiResource
     {
         public string CustomerId { get; set; }

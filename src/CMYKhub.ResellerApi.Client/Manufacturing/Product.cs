@@ -1,5 +1,8 @@
 ﻿namespace CMYKhub.ResellerApi.Client.Manufacturing
 {
+    /// <summary>
+    /// Represents a standard product that is printed on a ganged print run
+    /// </summary>
     public class Product
     {
         public string Id { get; set; }
