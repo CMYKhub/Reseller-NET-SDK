@@ -31,6 +31,11 @@
             "MediaType": "application/vnd.cmykhub+json"
         },
         {
+            "Uri": "http://tempuri.org/man/WideFormat/Products",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/products/wideFormat",
+            "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
             "Uri": "http://tempuri.org/man/Pricing/Standard",
             "Relation": "http://schemas.cmykhub.com/api/hublink/relations/pricing/standard",
             "MediaType": "application/vnd.cmykhub+json"

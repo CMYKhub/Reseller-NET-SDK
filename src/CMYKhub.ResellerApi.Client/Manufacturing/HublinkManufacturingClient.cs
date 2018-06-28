@@ -15,6 +15,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         private const string ManufacturingFinishings = "http://schemas.cmykhub.com/api/hublink/relations/finishings";
         private const string ManufacturingFinishingsAvailable = "http://schemas.cmykhub.com/api/hublink/relations/finishings/available";
         private const string ManufacturingProducts = "http://schemas.cmykhub.com/api/hublink/relations/products";
+        private const string ManufacturingProductsWideFormat = "http://schemas.cmykhub.com/api/hublink/relations/products/wideFormat";
         private const string ManufacturingPricingStandard = "http://schemas.cmykhub.com/api/hublink/relations/pricing/standard";
         private const string ManufacturingPricingBooklet = "http://schemas.cmykhub.com/api/hublink/relations/pricing/booklet";
 
@@ -111,6 +112,21 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
         {
             return (await GetByRelationAsync<Products>(ManufacturingProducts, $"name={name}")).Items;
+        }
+
+        public Task<Product> GetWideFormatProductAsync(string id)
+        {
+            return GetByRelationAsync<Product>(ManufacturingProductsWideFormat, $"productid={id}");
+        }
+
+        public async Task<IEnumerable<Product>> GetWideFormatProductsAsync()
+        {
+            return (await GetByRelationAsync<Products>(ManufacturingProductsWideFormat)).Items;
+        }
+
+        public async Task<IEnumerable<Product>> GetWideFormatProductsByNameAsync(string name)
+        {
+            return (await GetByRelationAsync<Products>(ManufacturingProductsWideFormat, $"name={name}")).Items;
         }
 
         public async Task<ProductPrice> CreatePriceAsync(StandardPriceRequest request)

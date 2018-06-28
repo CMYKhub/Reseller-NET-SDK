@@ -1,0 +1,25 @@
+﻿{
+    "Items": [
+        {
+            "Id": "bd69fd35-7860-44b7-9099-e4c9e4fc6aa8",
+            "Name": "Canvas Poster 1 Side",
+            "Description": "Canvas Poster 1 Side",
+            "Code": "bd69fd35-7860-44b7-9099-e4c9e4fc6aa8",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/bd69fd35-7860-44b7-9099-e4c9e4fc6aa8",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/WideFormat/Products",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}

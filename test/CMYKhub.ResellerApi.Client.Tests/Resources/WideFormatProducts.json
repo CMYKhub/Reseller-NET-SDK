@@ -1,0 +1,137 @@
+﻿{
+    "Items": [
+        {
+            "Id": "36db0a24-9cb7-4f54-8bee-284fcefbcd4c",
+            "Name": "Basic Poster 1 Side",
+            "Description": "Basic Poster 1 Side",
+            "Code": "36db0a24-9cb7-4f54-8bee-284fcefbcd4c",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/36db0a24-9cb7-4f54-8bee-284fcefbcd4c",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "bd69fd35-7860-44b7-9099-e4c9e4fc6aa8",
+            "Name": "Canvas Poster 1 Side",
+            "Description": "Canvas Poster 1 Side",
+            "Code": "bd69fd35-7860-44b7-9099-e4c9e4fc6aa8",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/bd69fd35-7860-44b7-9099-e4c9e4fc6aa8",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2ef86f4c-6dc9-4b3d-9e69-0fe73630318d",
+            "Name": "Clear Vinyl Sticker + WHITE INK",
+            "Description": "Clear Vinyl Sticker + WHITE INK",
+            "Code": "2ef86f4c-6dc9-4b3d-9e69-0fe73630318d",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/2ef86f4c-6dc9-4b3d-9e69-0fe73630318d",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "81ceab96-ddfb-4691-8317-5d6f219b56ea",
+            "Name": "Fence Mesh",
+            "Description": "Fence Mesh",
+            "Code": "81ceab96-ddfb-4691-8317-5d6f219b56ea",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/81ceab96-ddfb-4691-8317-5d6f219b56ea",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "f8185fbd-4aa0-457f-90d2-434290554198",
+            "Name": "Floor Display",
+            "Description": "Floor Display",
+            "Code": "f8185fbd-4aa0-457f-90d2-434290554198",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/f8185fbd-4aa0-457f-90d2-434290554198",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "2dfb1820-69ca-401b-a125-9117910ca801",
+            "Name": "Indoor Banner 1 Side",
+            "Description": "Indoor Banner 1 Side",
+            "Code": "2dfb1820-69ca-401b-a125-9117910ca801",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/2dfb1820-69ca-401b-a125-9117910ca801",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "a65eebf1-ab78-4450-a942-7ec21340ca8b",
+            "Name": "Outdoor Polyester",
+            "Description": "Outdoor Polyester",
+            "Code": "a65eebf1-ab78-4450-a942-7ec21340ca8b",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/a65eebf1-ab78-4450-a942-7ec21340ca8b",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "d42522f1-c4b8-4f96-97a1-1954cbf1e03a",
+            "Name": "Pull-up Banners - 600mm",
+            "Description": "Pull-up Banners - 600mm",
+            "Code": "d42522f1-c4b8-4f96-97a1-1954cbf1e03a",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/d42522f1-c4b8-4f96-97a1-1954cbf1e03a",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        },
+        {
+            "Id": "6033f3bc-a2f6-448f-b9d0-912156546d51",
+            "Name": "Yupo Poster 1 Side",
+            "Description": "Yupo Poster 1 Side",
+            "Code": "6033f3bc-a2f6-448f-b9d0-912156546d51",
+            "ProductGroup": null,
+            "Links": [
+                {
+                    "Uri": "http://tempuri.org/man/WideFormat/Products/6033f3bc-a2f6-448f-b9d0-912156546d51",
+                    "Relation": "self",
+                    "MediaType": "application/vnd.cmykhub+json"
+                }
+            ]
+        }
+    ],
+    "Links": [
+        {
+            "Uri": "http://tempuri.org/man/WideFormat/Products",
+            "Relation": "self",
+            "MediaType": "application/vnd.cmykhub+json"
+        }
+    ]
+}
