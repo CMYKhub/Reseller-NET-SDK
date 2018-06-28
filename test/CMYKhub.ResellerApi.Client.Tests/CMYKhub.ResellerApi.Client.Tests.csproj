@@ -73,6 +73,8 @@
     <Compile Include="HttpClientFactoryTests.cs" />
     <Compile Include="PrepressOrderTests.cs" />
     <Compile Include="PricingTests.cs" />
+    <Compile Include="WideFormatPriceRequestComparer.cs" />
+    <Compile Include="WideFormatPricingTests.cs" />
     <Compile Include="WideFormatProductsTests.cs" />
     <Compile Include="ProductsTests.cs" />
     <Compile Include="PaperTests.cs" />
@@ -133,6 +135,8 @@
     <EmbeddedResource Include="Resources\WideFormatProduct_bd69fd35-7860-44b7-9099-e4c9e4fc6aa8.json" />
     <EmbeddedResource Include="Resources\WideFormatProducts.json" />
     <EmbeddedResource Include="Resources\WideFormatProducts_Canvas.json" />
+    <EmbeddedResource Include="Resources\Pricing_WideFormat_2.json" />
+    <EmbeddedResource Include="Resources\Pricing_WideFormat_1.json" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

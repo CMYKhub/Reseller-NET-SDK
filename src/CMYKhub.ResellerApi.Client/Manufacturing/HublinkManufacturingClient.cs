@@ -18,6 +18,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         private const string ManufacturingProductsWideFormat = "http://schemas.cmykhub.com/api/hublink/relations/products/wideFormat";
         private const string ManufacturingPricingStandard = "http://schemas.cmykhub.com/api/hublink/relations/pricing/standard";
         private const string ManufacturingPricingBooklet = "http://schemas.cmykhub.com/api/hublink/relations/pricing/booklet";
+        private const string ManufacturingPricingWideFormat = "http://schemas.cmykhub.com/api/hublink/relations/pricing/wideFormat";
 
         public HublinkManufacturingClient(IHttpClientFactory clientFactory, ClientSettings settings)
             : base(clientFactory, settings) { }
@@ -141,6 +142,13 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             var discovery = await DiscoverManufacturingAsync();
             var pricingLink = discovery.Links.FindLinkByRelation(ManufacturingPricingBooklet);
             return (await PostAsync<BookletProductRequest, ProductPrice>(pricingLink.Uri, request));
+        }
+
+        public async Task<ProductPrice> CreatePriceAsync(WideFormatPriceRequest request)
+        {
+            var discovery = await DiscoverManufacturingAsync();
+            var pricingLink = discovery.Links.FindLinkByRelation(ManufacturingPricingWideFormat);
+            return (await PostAsync<WideFormatPriceRequest, ProductPrice>(pricingLink.Uri, request));
         }
 
         public async Task<CreatedOrderResource> CreateOrderAsync(CreateOrderRequest request)

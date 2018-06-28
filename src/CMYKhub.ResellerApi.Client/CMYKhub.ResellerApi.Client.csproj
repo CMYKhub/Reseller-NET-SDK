@@ -81,6 +81,7 @@
     <Compile Include="Manufacturing\Paper.cs" />
     <Compile Include="Manufacturing\Customer.cs" />
     <Compile Include="Manufacturing\PrintTypes.cs" />
+    <Compile Include="Manufacturing\WideFormatWizardFinishing.cs" />
     <Compile Include="Manufacturing\ProductPrice.cs" />
     <Compile Include="Manufacturing\PriceRequest.cs" />
     <Compile Include="Manufacturing\PrintWizardFinishing.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Manufacturing\Product.cs" />
     <Compile Include="Manufacturing\ProductGroup.cs" />
     <Compile Include="Manufacturing\Size.cs" />
+    <Compile Include="Manufacturing\WideFormatPriceRequest.cs" />
     <Compile Include="Manufacturing\StandardPriceRequest.cs" />
     <Compile Include="Manufacturing\State.cs" />
     <Compile Include="Prepress\ArtPackageResource.cs" />

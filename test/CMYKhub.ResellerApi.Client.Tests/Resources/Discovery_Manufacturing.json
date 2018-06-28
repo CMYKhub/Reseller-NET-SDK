@@ -44,6 +44,11 @@
             "Uri": "http://tempuri.org/man/Pricing/Booklet",
             "Relation": "http://schemas.cmykhub.com/api/hublink/relations/pricing/booklet",
             "MediaType": "application/vnd.cmykhub+json"
+        },
+        {
+            "Uri": "http://tempuri.org/man/Pricing/WideFormat",
+            "Relation": "http://schemas.cmykhub.com/api/hublink/relations/pricing/wideFormat",
+            "MediaType": "application/vnd.cmykhub+json"
         }
     ]
 }
