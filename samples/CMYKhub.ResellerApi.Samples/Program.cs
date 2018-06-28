@@ -37,6 +37,10 @@ namespace CMYKhub.ResellerApi.Samples
                 {
                     ListProducts(args.Length > 1 ? args[1] : null);
                 }
+                else if (args[0] == "products-list-wf" && args.Count() >= 1)
+                {
+                    ListWideFormatProducts(args.Length > 1 ? args[1] : null);
+                }
                 else if (args[0] == "papers-list" && args.Count() >= 1)
                 {
                     ListPapers(args.Length > 1 ? args[1] : null);
@@ -48,6 +52,10 @@ namespace CMYKhub.ResellerApi.Samples
                 else if (args[0] == "price-product" && args.Count() >= 2)
                 {
                     GetProductPrice(args[1]);
+                }
+                else if (args[0] == "price-product-wf" && args.Count() >= 2)
+                {
+                    GetWideFormatProductPrice(args[1]);
                 }
                 else if (args[0] == "price-booklet")
                 {
@@ -144,6 +152,18 @@ namespace CMYKhub.ResellerApi.Samples
                 Console.WriteLine($"{product.Id} : {product.Name}");
         }
 
+        private static void ListWideFormatProducts(string name = null)
+        {
+            var manufacturingClient = GetManufacturingClient();
+            IEnumerable<Product> products;
+            if (!string.IsNullOrEmpty(name))
+                products = manufacturingClient.GetWideFormatProductsByNameAsync(name).Result;
+            else
+                products = manufacturingClient.GetWideFormatProductsAsync().Result;
+            foreach (var product in products)
+                Console.WriteLine($"{product.Id} : {product.Name}");
+        }
+
         private static void ListFinishings(string name = null)
         {
             var manufacturingClient = GetManufacturingClient();
@@ -172,6 +192,15 @@ namespace CMYKhub.ResellerApi.Samples
         {
             var manufacturingClient = GetManufacturingClient();
             var price = manufacturingClient.CreatePriceAsync(new StandardPriceRequest { ProductId = productId, Quantity = 1000, Kinds = 1 }).Result;
+
+            Console.WriteLine($"Ex Tax: {price.Price.ExTax}");
+            Console.WriteLine($"Expires: {price.Expires.ToString("dd MMM yyyy")}");
+        }
+
+        private static void GetWideFormatProductPrice(string productId)
+        {
+            var manufacturingClient = GetManufacturingClient();
+            var price = manufacturingClient.CreatePriceAsync(new WideFormatPriceRequest { ProductId = productId, Quantity = 2, Kinds = 1, FinishedSize = new Size { Width = 1000, Height = 1000 } }).Result;
 
             Console.WriteLine($"Ex Tax: {price.Price.ExTax}");
             Console.WriteLine($"Expires: {price.Expires.ToString("dd MMM yyyy")}");
@@ -279,8 +308,10 @@ namespace CMYKhub.ResellerApi.Samples
             Console.WriteLine("  papers-list [name] : this will return papers optionally filtered by name");
             Console.WriteLine("  finishings-list [name] : this will return finishings optionally filtered by name");
             Console.WriteLine("  products-list [name] : this will return products optionally filtered by name");
+            Console.WriteLine("  products-list-wf [name] : this will return wide format products optionally filtered by name");
             Console.WriteLine("  price-product [productId] : this will return a price for the product with the given id");
             Console.WriteLine("  price-booklet : this will return a price for a sample booklet");
+            Console.WriteLine("  price-product-wf [productId] : this will return a price for the wide format product with the given id");
             Console.WriteLine("  order-create-product [productId] : this will create an order for the product with the given id");
             Console.WriteLine("  order-create-booklet : this will create an order for a sample booklet");
             Console.WriteLine("  order-create-token-product [productId] : this will get a price and create an order to honour the provided price");
