@@ -22,8 +22,8 @@ namespace CMYKhub.ResellerApi.Client.Tests
         private static bool Compare(IDictionary<string, string> left, IDictionary<string, string> right)
         {
             if (left == null && right == null) return true;
-            if (right == null  && !left.Keys.Any() ) return true;
-            if (left == null  && !right.Keys.Any()) return true;
+            if (right == null && !left.Keys.Any()) return true;
+            if (left == null && !right.Keys.Any()) return true;
             if (left == null) return false;
             if (right == null) return false;
 
@@ -34,7 +34,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
                 if (left[key] != right[key]) return false;
             }
 
-            return false;
+            return true;
         }
     }
 }
