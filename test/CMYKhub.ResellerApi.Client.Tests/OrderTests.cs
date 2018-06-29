@@ -326,6 +326,66 @@ namespace CMYKhub.ResellerApi.Client.Tests
     }
 
     [TestClass]
+    public class When_create_order_from_wide_format_product : HublinkManufacturingClientTests
+    {
+        private CreateOrderFromWideFormatRequest request = new CreateOrderFromWideFormatRequest
+        {
+            Notes = "Please match colour B12",
+            Reference = "REF: 123",
+            Product = new WideFormatPriceRequest
+            {
+                FinishedSize = new Size { Width = 290, Height = 400 },
+                Kinds = 2,
+                ProductId = "268",
+                Quantity = 1000
+            }
+        };
+        private CreatedOrderResource result;
+
+        private bool Compare(CreateOrderFromWideFormatRequest left, CreateOrderFromWideFormatRequest right)
+        {
+            return left.Notes == right.Notes &&
+                   left.Reference == right.Reference &&
+                   WideFormatPriceRequestComparer.Compare(left.Product, right.Product);
+        }
+
+        [TestInitialize]
+        public override void Arrange()
+        {
+            base.Arrange();
+
+            mockHttp.When(HttpMethod.Post, $"{baseUri}/man/orders")
+                .With(r => Compare(request, r.Content.ReadAsAsync<CreateOrderFromWideFormatRequest>().Result))
+                .Respond("application/json", "Resources.Order_from_product.json".ReadStringResource());
+
+            Act();
+        }
+
+        public override void Act()
+        {
+            result = client.CreateOrderAsync(request).Result;
+        }
+
+        [TestMethod]
+        public void Should_return_order_created()
+        {
+            Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void OrderId_should_match_value_in_response()
+        {
+            Assert.AreEqual("872418", result.OrderId);
+        }
+
+        [TestMethod]
+        public void ResellerId_should_match_value_in_response()
+        {
+            Assert.AreEqual("4926", result.ResellerId);
+        }
+    }
+
+    [TestClass]
     public class When_create_order_from_token : HublinkManufacturingClientTests
     {
         private CreateOrderFromTokenRequest request = new CreateOrderFromTokenRequest

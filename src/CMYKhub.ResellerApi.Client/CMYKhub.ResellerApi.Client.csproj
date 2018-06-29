@@ -64,6 +64,7 @@
     <Compile Include="Manufacturing\Country.cs" />
     <Compile Include="Manufacturing\CreatedOrderResource.cs" />
     <Compile Include="Manufacturing\CreateOrderFromBookletRequest.cs" />
+    <Compile Include="Manufacturing\CreateOrderFromWideFormatRequest.cs" />
     <Compile Include="Manufacturing\CreateOrderFromProductRequest.cs" />
     <Compile Include="Manufacturing\CreateOrderFromQuoteRequest.cs" />
     <Compile Include="Manufacturing\CreateOrderFromTokenRequest.cs" />
