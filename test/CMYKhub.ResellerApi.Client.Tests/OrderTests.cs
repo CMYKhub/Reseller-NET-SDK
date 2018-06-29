@@ -332,7 +332,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
         {
             Notes = "Please match colour B12",
             Reference = "REF: 123",
-            Product = new WideFormatPriceRequest
+            WideFormat = new WideFormatPriceRequest
             {
                 FinishedSize = new Size { Width = 290, Height = 400 },
                 Kinds = 2,
@@ -346,7 +346,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
         {
             return left.Notes == right.Notes &&
                    left.Reference == right.Reference &&
-                   WideFormatPriceRequestComparer.Compare(left.Product, right.Product);
+                   WideFormatPriceRequestComparer.Compare(left.WideFormat, right.WideFormat);
         }
 
         [TestInitialize]

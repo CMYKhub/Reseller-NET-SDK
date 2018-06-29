@@ -2,6 +2,6 @@
 {
     public class CreateOrderFromWideFormatRequest : CreateOrderFromWizardRequest
     {
-        public WideFormatPriceRequest Product { get; set; }
+        public WideFormatPriceRequest WideFormat { get; set; }
     }
 }
