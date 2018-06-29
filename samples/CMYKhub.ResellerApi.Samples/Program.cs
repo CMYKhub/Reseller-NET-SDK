@@ -69,6 +69,10 @@ namespace CMYKhub.ResellerApi.Samples
                 {
                     CreateOrderFromBooklet();
                 }
+                else if (args[0] == "order-create-product-wf" && args.Count() >= 2)
+                {
+                    CreateOrderFromWideFormatProduct(args[1]);
+                }
                 else if (args[0] == "order-create-token-product" && args.Count() >= 2)
                 {
                     CreateOrderFromProductToken(args[1]);
@@ -272,6 +276,20 @@ namespace CMYKhub.ResellerApi.Samples
             Console.WriteLine($"Order Number: {orderSummary.OrderId}");
         }
 
+        private static void CreateOrderFromWideFormatProduct(string productId)
+        {
+            var manufacturingClient = GetManufacturingClient();
+            var request = new CreateOrderFromWideFormatRequest
+            {
+                WideFormat = new WideFormatPriceRequest { ProductId = productId, Quantity = 2, Kinds = 1, FinishedSize = new Size { Width = 1000, Height = 1000 } },
+                Notes = "Generated from the Sample Code project",
+                Reference = "SAMPLE CODE"
+            };
+            var orderSummary = manufacturingClient.CreateOrderAsync(request).Result;
+
+            Console.WriteLine($"Order Number: {orderSummary.OrderId}");
+        }
+
         private static void CreateOrderFromProductToken(string productId)
         {
             var manufacturingClient = GetManufacturingClient();
@@ -314,6 +332,7 @@ namespace CMYKhub.ResellerApi.Samples
             Console.WriteLine("  price-product-wf [productId] : this will return a price for the wide format product with the given id");
             Console.WriteLine("  order-create-product [productId] : this will create an order for the product with the given id");
             Console.WriteLine("  order-create-booklet : this will create an order for a sample booklet");
+            Console.WriteLine("  order-create-product-wf [productId] : this will create an order for the product with the given id");
             Console.WriteLine("  order-create-token-product [productId] : this will get a price and create an order to honour the provided price");
             Console.WriteLine("  order-create-quote [quoteId] : this will create an order for an existing quote");
 

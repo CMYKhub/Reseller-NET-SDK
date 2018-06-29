@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CMYKhub.ResellerApi.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CMYKhub.ResellerApi.Client.0.4.0-develop4\lib\CMYKhub.ResellerApi.Client.dll</HintPath>
+      <HintPath>..\..\packages\CMYKhub.ResellerApi.Client.0.4.0-develop6\lib\CMYKhub.ResellerApi.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
