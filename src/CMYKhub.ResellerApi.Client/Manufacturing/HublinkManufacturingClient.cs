@@ -97,7 +97,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
             if (spec.Book != null)
                 query = $"{query}&book.pp={spec.Book.Pp}&book.orientation={(int)spec.Book.Orientation}";
 
-            return (await GetByRelationAsync<Finishings>(ManufacturingFinishingsAvailable, query)).Items;
+            return (await GetByRelationAsync<Finishings>(ManufacturingFinishings, query)).Items;
         }
 
         public Task<Product> GetProductAsync(string id)
