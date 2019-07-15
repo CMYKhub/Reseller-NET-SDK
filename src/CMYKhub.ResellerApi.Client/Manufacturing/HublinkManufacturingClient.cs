@@ -95,7 +95,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         {
             var query = $"width={spec.Width}&height={spec.Height}&paperWeight={spec.PaperWeight}&printType={(int)spec.PrintType}";
             if (spec.Book != null)
-                query = $"{query}&book.pp={spec.Book.Pp}&book.orientation={(int)spec.Book.Orientation}";
+                query = $"{query}&pp={spec.Book.Pp}&orientation={(int)spec.Book.Orientation}";
 
             return (await GetByRelationAsync<Finishings>(ManufacturingFinishings, query)).Items;
         }
