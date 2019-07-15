@@ -39,13 +39,10 @@ namespace CMYKhub.ResellerApi.Client
         {
             var client = GetClient();
             var response = await client.GetAsync(uri);
-            if (response.IsSuccessStatusCode)
-                if (formatters == null)
-                    return await response.Content.ReadAsAsync<T>();
-                else
-                    return await response.Content.ReadAsAsync<T>(formatters);
-            else
-                return default(T);
+            if (!response.IsSuccessStatusCode) throw new HttpRequestException(response.StatusCode.ToString());
+            if (formatters == null)
+                return await response.Content.ReadAsAsync<T>();
+            return await response.Content.ReadAsAsync<T>(formatters);
         }
 
         protected async Task<TResult> PostAsync<TRequest, TResult>(string uri, TRequest content, IEnumerable<MediaTypeFormatter> formatters = null)
