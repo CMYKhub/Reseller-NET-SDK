@@ -92,5 +92,44 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         /// Returns products filtered by the given name
         /// </summary>
         Task<IEnumerable<Product>> GetProductsByNameAsync(string name);
+
+        /// <summary>
+        /// Return custom size by the given id
+        /// </summary>
+        /// <param name="id">The id of the size</param>
+        /// <returns>The custom size</returns>
+        Task<Size> GetCustomSizeAsync(string id);
+
+        /// <summary>
+        /// Returns a list of custom sizes
+        /// </summary>
+        /// <returns>A list of custom sizes</returns>
+        Task<IEnumerable<Size>> GetCustomSizesAsync();
+
+        /// <summary>
+        /// Return fixed size by the given id
+        /// </summary>
+        /// <param name="id">The id of the size</param>
+        /// <returns>The fixed size</returns>
+        Task<Size> GetFixedSizeAsync(string id);
+
+        /// <summary>
+        /// Returns a list of fixed sizes
+        /// </summary>
+        /// <returns>A list of fixed sizes</returns>
+        Task<IEnumerable<Size>> GetFixedSizesAsync();
+
+        /// <summary>
+        /// Returns a list of fixed sizes for a given quote type
+        /// </summary>
+        /// <param name="quoteType">The quote type</param>
+        /// <returns>A list of fixed sizes</returns>
+        Task<IEnumerable<Size>> GetFixedSizesAsync(string quoteType);
+
+        /// <summary>
+        /// Returns a list of quote types
+        /// </summary>
+        /// <returns>A list of quote types</returns>
+        Task<IEnumerable<string>> GetQuoteTypesAsync();
     }
 }

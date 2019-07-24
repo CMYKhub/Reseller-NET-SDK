@@ -10,7 +10,7 @@ namespace CMYKhub.ResellerApi.Client.Tests
             return left.DeliveryType == right.DeliveryType &&
                    left.FinishedSize.Width == right.FinishedSize.Width &&
                    left.FinishedSize.Height == right.FinishedSize.Height &&
-                   left.Finishing.Length == right.Finishing.Length &&
+                   left.Finishing.ToArray().Length == right.Finishing.ToArray().Length &&
                    left.Finishing.All(x => right.Finishing.Any(y => y.FinishingId == x.FinishingId && y.NoItems == x.NoItems)) &&
                    left.FreightProviderId == right.FreightProviderId &&
                    left.Kinds == right.Kinds &&

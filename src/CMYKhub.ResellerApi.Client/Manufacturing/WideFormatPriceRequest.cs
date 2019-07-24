@@ -4,7 +4,7 @@
     {
         public WideFormatPriceRequest()
         {
-            Finishing = new WideFormatWizardFinishing[0];
+            Kinds = 1;
         }
         public string ProductId { get; set; }
         public int Quantity { get; set; }

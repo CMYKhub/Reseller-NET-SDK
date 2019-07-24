@@ -1,10 +1,12 @@
-﻿namespace CMYKhub.ResellerApi.Client.Manufacturing
+﻿using System.Collections.Generic;
+
+namespace CMYKhub.ResellerApi.Client.Manufacturing
 {
     public class StandardPriceRequest : PriceRequest
     {
         public StandardPriceRequest()
         {
-            Finishing = new PrintWizardFinishing[0];
+            Kinds = 1;
         }
         public string ProductId { get; set; }
         public int Quantity { get; set; }
