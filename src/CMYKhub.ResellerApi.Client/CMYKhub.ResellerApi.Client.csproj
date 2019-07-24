@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CMYKhub.ResellerApi.Client.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -82,6 +83,8 @@
     <Compile Include="Manufacturing\Paper.cs" />
     <Compile Include="Manufacturing\Customer.cs" />
     <Compile Include="Manufacturing\PrintTypes.cs" />
+    <Compile Include="Manufacturing\QuoteTypes.cs" />
+    <Compile Include="Manufacturing\Sizes.cs" />
     <Compile Include="Manufacturing\WideFormatWizardFinishing.cs" />
     <Compile Include="Manufacturing\ProductPrice.cs" />
     <Compile Include="Manufacturing\PriceRequest.cs" />

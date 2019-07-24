@@ -4,7 +4,6 @@
     {
         public BookletCoverSection()
         {
-            Finishing = new PrintWizardFinishing[0];
         }
         public int Pp { get; set; }
         public string PaperId { get; set; }
