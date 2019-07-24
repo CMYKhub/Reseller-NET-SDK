@@ -23,6 +23,7 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         private const string ManufacturingPricingWideFormat = "http://schemas.cmykhub.com/api/hublink/relations/pricing/wideFormat";
         private const string ManufacturingCustomSizes = "http://schemas.cmykhub.com/api/hublink/relations/customSizes";
         private const string ManufacturingFixedSizes = "http://schemas.cmykhub.com/api/hublink/relations/fixedSizes";
+        private const string ManufacturingQuoteTypes = "http://schemas.cmykhub.com/api/hublink/relations/quoteTypes";
 
         /// <summary>
         /// Construct to inject the client factory and settings
@@ -319,6 +320,15 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         public async Task<IEnumerable<Size>> GetFixedSizesAsync(string quoteType)
         {
             return (await GetByRelationAsync<Sizes>(ManufacturingFixedSizes, $"quoteType={quoteType}")).Items;
+        }
+
+        /// <summary>
+        /// Returns a list of quote types
+        /// </summary>
+        /// <returns>A list of quote types</returns>
+        public async Task<IEnumerable<string>> GetQuoteTypesAsync()
+        {
+            return (await GetByRelationAsync<List<string>>(ManufacturingQuoteTypes));
         }
     }
 }

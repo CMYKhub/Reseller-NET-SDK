@@ -83,6 +83,7 @@
     <Compile Include="Manufacturing\Paper.cs" />
     <Compile Include="Manufacturing\Customer.cs" />
     <Compile Include="Manufacturing\PrintTypes.cs" />
+    <Compile Include="Manufacturing\QuoteTypes.cs" />
     <Compile Include="Manufacturing\Sizes.cs" />
     <Compile Include="Manufacturing\WideFormatWizardFinishing.cs" />
     <Compile Include="Manufacturing\ProductPrice.cs" />

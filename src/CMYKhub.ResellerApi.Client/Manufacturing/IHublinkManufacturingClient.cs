@@ -125,5 +125,11 @@ namespace CMYKhub.ResellerApi.Client.Manufacturing
         /// <param name="quoteType">The quote type</param>
         /// <returns>A list of fixed sizes</returns>
         Task<IEnumerable<Size>> GetFixedSizesAsync(string quoteType);
+
+        /// <summary>
+        /// Returns a list of quote types
+        /// </summary>
+        /// <returns>A list of quote types</returns>
+        Task<IEnumerable<string>> GetQuoteTypesAsync();
     }
 }
