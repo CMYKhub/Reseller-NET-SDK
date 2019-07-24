@@ -11,15 +11,27 @@ using CMYKhub.ResellerApi.Client.Extensions;
 
 namespace CMYKhub.ResellerApi.Client.Prepress
 {
+    /// <summary>
+    /// Client interface to Reseller API Pre-press methods
+    /// </summary>
     public class HublinkPrepressClient : HublinkClient, IHublinkPrepressClient
     {
         private const string PrepressRelation = "http://schemas.cmykhub.com/api/prepress";
         const string MediaTypeJson = "application/json";
         const int FileChunkSize = 1024000;//bytes
 
+        /// <summary>
+        /// Constructor to inject the client factory and settings
+        /// </summary>
+        /// <param name="clientFactory">The http client factory</param>
+        /// <param name="settings">The client settings</param>
         public HublinkPrepressClient(IHttpClientFactory clientFactory, ClientSettings settings)
             : base(clientFactory, settings) { }
 
+        /// <summary>
+        /// Discover the link relationship
+        /// </summary>
+        /// <returns>An asynchronous task with the link relationship</returns>
         protected async Task<PrepressApiDiscovery> DiscoverPrepressAsync()
         {
             var rootDiscovery = await base.DiscoverAsync();
@@ -27,6 +39,13 @@ namespace CMYKhub.ResellerApi.Client.Prepress
             return await GetAsync<PrepressApiDiscovery>(prepressLink.Uri, new[] { new PrepressJsonMediaTypeFormatter() });
         }
 
+        /// <summary>
+        /// This creates an artwork package for an order and uploads the artwork files
+        /// </summary>
+        /// <param name="orderId">The Order for which the artwork is being uploaded for</param>
+        /// <param name="hubId">The Hub for which the order is registered to</param>
+        /// <param name="files">A list of files to be uploaded</param>
+        /// <returns>An asynchronous task with a void type</returns>
         public async Task UploadArtworkAsync(string orderId, string hubId, IEnumerable<string> files)
         {
             //connect to the prepress api and upload the artwork files
@@ -137,6 +156,11 @@ namespace CMYKhub.ResellerApi.Client.Prepress
             }
         }
 
+        /// <summary>
+        /// Gets the order with associated artwork which is registered to pre-press
+        /// </summary>
+        /// <param name="id">The id of the order to return</param>
+        /// <returns>The order registered to pre-press</returns>
         public async Task<OrderResource> GetOrderAsync(string id)
         {
             var discovery = await DiscoverPrepressAsync();
